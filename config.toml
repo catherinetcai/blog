@@ -1,4 +1,4 @@
-baseurl = "https://catherinetcai.github.io"
+baseurl = "https://catherinetcai.github.io/blog"
 DefaultContentLanguage = "en"
 title = "Catherine Cai"
 theme = "beautifulhugo"
