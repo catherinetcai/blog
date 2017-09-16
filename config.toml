@@ -1,11 +1,11 @@
-baseurl = "https://catherinetcai.github.io/blog"
+baseurl = "https://catherinetcai.github.io"
 DefaultContentLanguage = "en"
 title = "Catherine Cai"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-publishDir = "docs"
+publishDir = "public"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
