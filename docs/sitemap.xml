@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://catherinetcai.github.io/</loc>
+    <lastmod>2017-08-08T15:18:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL:%20Tshark/</loc>
+    <lastmod>2017-08-08T15:18:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL:%20Name%20your%20ASG%20EC2%20Instances/</loc>
+    <lastmod>2017-06-28T16:05:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL:%20Migrating%20from%201Password%20to%20KeePass2/</loc>
+    <lastmod>2017-04-14T18:10:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Two%20Sum/</loc>
+    <lastmod>2017-03-20T01:31:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Swapping%20Numbers%20in%20Place%20Without%20Temporary%20Variables/</loc>
+    <lastmod>2017-03-13T19:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Add%20Two%20Numbers%20Represented%20as%20Linked%20Lists%20in%20Reverse%20Order/</loc>
+    <lastmod>2017-03-13T05:03:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Expvars%20and%20pprof%20with%20Gorilla%20mux/</loc>
+    <lastmod>2017-01-11T00:49:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20MySQL%20Username%20Character%20Limit/</loc>
+    <lastmod>2016-12-21T06:01:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Application%20Layer%20Protocol%20Negotiation%20%28ALPN%29/</loc>
+    <lastmod>2016-07-23T02:01:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Git%20Cherry-Picking%20Multiple%20Commits/</loc>
+    <lastmod>2016-06-27T23:09:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Docker%20Mac%20OS%20Beta%20Integration%20With%20IntelliJ/</loc>
+    <lastmod>2016-06-23T18:47:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Ruby%27s%20Module%20/</loc>
+    <lastmod>2016-06-01T20:20:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Hystrix%27s%20HystrixCommand%20vs%20HystrixObservableCommand/</loc>
+    <lastmod>2016-05-18T00:21:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Interface%20as%20Return%20Type/</loc>
+    <lastmod>2016-05-16T18:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Pulling%20Single%20Files%20in%20Git%20from%20Another%20Branch/</loc>
+    <lastmod>2016-05-11T23:44:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20MySQL%20Temporary%20Tables/</loc>
+    <lastmod>2016-05-05T15:31:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Phoenix%20Scrub%20Params/</loc>
+    <lastmod>2016-05-05T00:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20MySQL%20Comments/</loc>
+    <lastmod>2016-05-03T16:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Routers%20&amp;%20Routees/</loc>
+    <lastmod>2016-05-02T16:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Parallelism%20vs%20Concurrency/</loc>
+    <lastmod>2016-04-29T21:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Mutex/</loc>
+    <lastmod>2016-04-28T18:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20What%20is%20Google%20Guava/</loc>
+    <lastmod>2016-04-27T16:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20A%20Better%20Way%20to%20Handle%20Local%20Gems/</loc>
+    <lastmod>2016-04-26T15:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Creating%20Directories%20in%20Java/</loc>
+    <lastmod>2016-04-25T16:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Inheriting%20from%20Modules%20in%20Ruby/</loc>
+    <lastmod>2016-04-22T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20GenServer%20Callbacks/</loc>
+    <lastmod>2016-04-21T04:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Optionals/</loc>
+    <lastmod>2016-04-19T22:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Slowloris%20Attack/</loc>
+    <lastmod>2016-04-19T04:49:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20GenServer%20Debugs/</loc>
+    <lastmod>2016-04-09T02:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20MySQL,%20UTF8,%20and%20Emojis/</loc>
+    <lastmod>2016-04-08T00:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Getting%20War%20to%20Connect%20to%20Zookeeper/</loc>
+    <lastmod>2016-04-07T05:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Launching%20a%20war%20with%20Tomcat%20in%20Docker/</loc>
+    <lastmod>2016-04-06T06:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Ecto%20Changesets/</loc>
+    <lastmod>2016-04-04T18:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Elixir%20Alias/</loc>
+    <lastmod>2016-04-02T06:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Sharing%20Data%20From%20Host%20Machine%20and%20Docker%20Containers/</loc>
+    <lastmod>2016-03-31T17:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Building%20and%20Pushing%20Docker%20Images/</loc>
+    <lastmod>2016-03-30T18:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Why%20GenServers/</loc>
+    <lastmod>2016-03-30T05:43:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Unicode%20Surrogate%20Pairs/</loc>
+    <lastmod>2016-03-29T01:47:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Selection%20Sort%20Algorithm/</loc>
+    <lastmod>2016-03-25T17:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Big-O%20Notation/</loc>
+    <lastmod>2016-03-24T21:22:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Big%20%CE%98%20Theta%20Notation/</loc>
+    <lastmod>2016-03-23T21:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Sending%20Messages%20Between%20Processes%20in%20Elixir/</loc>
+    <lastmod>2016-03-23T00:05:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Comprehensions%20in%20Elixir/</loc>
+    <lastmod>2016-03-21T21:45:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Elixir%20Streams/</loc>
+    <lastmod>2016-03-18T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Listing%20a%20Module%27s%20Methods%20in%20IEx/</loc>
+    <lastmod>2016-03-17T22:06:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Pry%20in%20Elixir/</loc>
+    <lastmod>2016-03-17T00:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20That%20Z-Index%20is%20not%20always%20as%20it%20seems.../</loc>
+    <lastmod>2016-03-10T23:17:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20CSS%20Linear%20Gradients/</loc>
+    <lastmod>2016-03-10T06:17:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20CSS3%20Object-fit:%20cover/</loc>
+    <lastmod>2016-03-09T01:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL:%20Render%20vs%20redirect_to%20in%20Rails/</loc>
+    <lastmod>2016-03-07T22:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Twitter%20Bootstrap%202%20Scaffolding/</loc>
+    <lastmod>2016-03-05T01:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Elixir%20Pattern%20Matching%20Can%27t%20Bind%20Keys/</loc>
+    <lastmod>2016-03-04T00:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20The%20Elixir%20Pipe%20Operator/</loc>
+    <lastmod>2016-03-03T02:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Recursions%20in%20Elixir%20with%20Pattern%20Mapping/</loc>
+    <lastmod>2016-03-01T21:58:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/FizzBuzz%20with%20Elixir/</loc>
+    <lastmod>2016-03-01T07:01:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Elixir%20Tuples%20and...%20Files/</loc>
+    <lastmod>2016-02-27T06:16:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Private%20Classes%20in%20Ruby/</loc>
+    <lastmod>2016-02-26T00:12:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Immutable%20Data%20in%20Elixir/</loc>
+    <lastmod>2016-02-25T06:59:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Ruby%27s%20Alias%20Method/</loc>
+    <lastmod>2016-02-24T00:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Elixir%20-%20Ignoring%20Values%20with%20the%20%27_%27/</loc>
+    <lastmod>2016-02-22T23:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Elixir%20Pattern%20Matching/</loc>
+    <lastmod>2016-02-19T20:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20%27=%27%20is%20not%20always%20assignment/</loc>
+    <lastmod>2016-02-18T22:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Generics/</loc>
+    <lastmod>2016-02-18T07:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Dynamic%20Connectivity%20and%20the%20Union-Find%20Algorithm/</loc>
+    <lastmod>2016-02-17T02:00:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Default%20Methods/</loc>
+    <lastmod>2016-02-16T05:09:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Annotations/</loc>
+    <lastmod>2016-02-13T01:58:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Exceptions/</loc>
+    <lastmod>2016-02-12T06:58:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/TIL%20-%20Shotgun%20Surgery/</loc>
+    <lastmod>2016-02-10T19:50:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/Lighting%20Design/</loc>
+    <lastmod>2015-12-03T21:48:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/Vim:%20Weaning%20off%20Sublime%20Text%20and%20the%20Endless%20Sublime-iTerm%20Window%20Swap/</loc>
+    <lastmod>2015-11-18T07:20:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://catherinetcai.github.io/posts/Welcome/</loc>
+    <lastmod>2015-05-01T17:59:53+00:00</lastmod>
+  </url>
+  
+</urlset>

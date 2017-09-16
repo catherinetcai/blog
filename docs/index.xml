@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catherine Cai</title>
+    <link>https://catherinetcai.github.io/</link>
+    <description>Recent content on Catherine Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
+    <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
+    <lastBuildDate>Tue, 08 Aug 2017 15:18:24 +0000</lastBuildDate>
+    <atom:link href="https://catherinetcai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TIL: Tshark</title>
+      <link>https://catherinetcai.github.io/posts/TIL:%20Tshark/</link>
+      <pubDate>Tue, 08 Aug 2017 15:18:24 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL:%20Tshark/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been getting into the nitty gritty with Kubernetes networking and playing around with &lt;a href=&#34;http://docs.projectcalico.org/v2.2/usage/configuration/bgp&#34;&gt;BGP peering across two VPCs using Calico&lt;/a&gt;. I still haven&amp;rsquo;t fully grasped how BGP peering works, so I won&amp;rsquo;t get into that here.&amp;nbsp;
+Essentially, the problem boiled down to this. I had two Kubernetes clusters running with Calico launched in two different VPCs that were peered to each other. I set up one worker node in each cluster as BGP peers. Calico verified that they were connected and communicating correctly.
+I then launched an nginx pod in each cluster in order to test that I could curl each pod IP correctly from the other cluster and interact with it as you would a pod in your own cluster. Unfortunately, that didn&amp;rsquo;t happen. After a lot of back and forth between IP tables and using tcpdump, I decided that I wanted to break out Wireshark to sniff out why I was able to see packets from the other cluster make it onto the other node, but get dropped.
+Unfortunately, since I was popped in a box and Wireshark is GUI-only&amp;hellip; I had to find an alternative. Enter &lt;a href=&#34;https://www.wireshark.org/docs/man-pages/tshark.html&#34;&gt;tshark&lt;/a&gt;, which is essentially Wireshark as a CLI tool.
+The TIL:
+ &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL: Name your ASG EC2 Instances</title>
+      <link>https://catherinetcai.github.io/posts/TIL:%20Name%20your%20ASG%20EC2%20Instances/</link>
+      <pubDate>Wed, 28 Jun 2017 16:05:23 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL:%20Name%20your%20ASG%20EC2%20Instances/</guid>
+      <description>&lt;p&gt;Welp, another couple of months. This one though is attributed to life being insane: new job/vacation/new apartment.
+Enough excuses. Learning more Terraform.&amp;nbsp;
+Today I learned a bit of a silly one. I was creating a launch configuration that attached to an autoscaling group and noticed that every time I ran it in Terraform that my EC2 instances would come up with no names.
+Turns out that you have to use the tag field with key &amp;ldquo;Name&amp;rdquo;, value of &amp;lt;your name here&amp;gt;, and propagate_at_launch as true in order for the instance names to be propagated correctly. Oops.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL: Migrating from 1Password to KeePass2</title>
+      <link>https://catherinetcai.github.io/posts/TIL:%20Migrating%20from%201Password%20to%20KeePass2/</link>
+      <pubDate>Fri, 14 Apr 2017 18:10:40 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL:%20Migrating%20from%201Password%20to%20KeePass2/</guid>
+      <description>&lt;p&gt;I recently bought a XPS 15&amp;rdquo; in lieu of wanting Macbook-like thinness and specs without the Macbook price tag (also that danging touchbar&amp;hellip;) I ended up not being able to tolerate Windows 10, so I immediately partitioned the hard drive and booted up &lt;a href=&#34;https://elementary.io/&#34;&gt;Elementary OS&lt;/a&gt; on a friend&amp;rsquo;s recommendation. I&amp;rsquo;ve dabbled with Linux distros via VM (and I had a short stint where I decided I was going to take a crack at Arch Linux), but I never fully got around to actually going full hog Linux.
+One of the things preventing me from making the move was migrating off of 1Password. I wasn&amp;rsquo;t sure how to do it safely and quickly.
+This entire guide is assuming that you&amp;rsquo;re migrating from OSX -&amp;gt; a Debian-like distro.&lt;/p&gt;
+
+&lt;p&gt;The same friend who turned me onto Elementary OS also turned me onto Syncthing. Think of it like a decentralized Box or Dropbox. It&amp;rsquo;s pretty awesome. Install it on both OS X and your Linux setup. Run it on both and create your Sync folders. (I just threw mine in the default $HOME/Sync directory to make it easier to find..&lt;/p&gt;
+
+&lt;p&gt;Export your 1Password vault on the Mac side as unencrypted CSV. It&amp;rsquo;s going to give you oodles of warnings about how this is unsafe. We know, and accept the risks.
+You&amp;rsquo;re going to want to export just very specific fields so that upon import, figuring out the structure of the CSV on the Keepass2 side won&amp;rsquo;t be overwhelming. The important bits are the Title, Username, Password, Description, and URL. Anything else you want to import is just icing on the cake.&amp;nbsp;
+Export the file into your Sync folder. Ensure that the sync completes on both sides.&lt;/p&gt;
+
+&lt;p&gt;From Keepass2, you&amp;rsquo;re going to want to go to File -&amp;gt; Import. When the dialog option opens up, select the General CSV Importer. That 1PW CSV importer is a lie. It never worked for me.
+In any case, you&amp;rsquo;ll just want to go to the preview to see how the fields will get imported in. Likely, the order is going to be wrong, and you&amp;rsquo;re going to have to adjust the structure of each field. Once that&amp;rsquo;s complete, just hit import.
+If you had a gianormous 1Password vault like me, it&amp;rsquo;s probably going to look like the importer is doing nothing. Nope, it&amp;rsquo;s fine. Leave it alone and just let it do its thing. There&amp;rsquo;s no progress bar to tell you how the sync is going, which is disappointing, but if you just leave it running for an hour or so, it&amp;rsquo;ll eventually complete and you&amp;rsquo;ll have a populated database.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WTF Algorithms - Two Sum</title>
+      <link>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Two%20Sum/</link>
+      <pubDate>Mon, 20 Mar 2017 01:31:33 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Two%20Sum/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s WTF Algorithms is going to be this &lt;a href=&#34;https://leetcode.com/problems/two-sum/#/description&#34;&gt;LeetCode&amp;rsquo;s Two Sum&lt;/a&gt; problem.&lt;/p&gt;
+
+&lt;p&gt;Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exact one solution, and you may not use the same element twice.&lt;/p&gt;
+
+&lt;p&gt;[2,7,11,15], target: 9&lt;/p&gt;
+
+&lt;p&gt;[0,1]
+Usually, when I see something having to do with an array/slice&amp;hellip; my first thought is to iterate over each element and brute force the problem. Hey, even if it&amp;rsquo;s not the sexiest and fastest way to solve the problem, it&amp;rsquo;s still a solution.
+Let&amp;rsquo;s take a look at the pseudocode.
+Essentially, we&amp;rsquo;re just nesting a loop within a loop and just procedurally adding each combination one at a time, and checking to see if it&amp;rsquo;s the correct target. If it is, then we return the target. Obviously, this isn&amp;rsquo;t efficient and if we&amp;rsquo;re worried about Big O, this would be a O(n^2).
+Another way to do this would be via a map that keeps track of a number&amp;rsquo;s complement when subtracted from the target and its index. It&amp;rsquo;ll make a little more sense when looking at the pseudocode:
+Let&amp;rsquo;s go over the first pass of this with the first two numbers in the input: 2 and 7.
+The first loop would have the complement as 9-2, which is 7. The map is going to be empty, so we won&amp;rsquo;t be hitting that return. Instead, we&amp;rsquo;ll just add 7 into the complement map with an index of 0. In our first pass, our map will contain: { 7 =&amp;gt; 0 }.
+The second loop will have the complement be 9-7, which is 2. The map will have 7, which matches up with our current loop of nums[1] = 7. That means that we now have the index of the two numbers that make the sum. We look for 7 in the map, which returns 0. So we&amp;rsquo;ll be returning 0 and our current index, 1.
+This algorithm can definitely be improved upon. We could add a conditional to check for negatives. This will only work for positive integers. This whole things falls apart when we look for negatives.&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WTF Algorithms - Swapping Numbers in Place Without Temporary Variables</title>
+      <link>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Swapping%20Numbers%20in%20Place%20Without%20Temporary%20Variables/</link>
+      <pubDate>Mon, 13 Mar 2017 19:00:00 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Swapping%20Numbers%20in%20Place%20Without%20Temporary%20Variables/</guid>
+      <description>&lt;p&gt;I got this one from the &lt;a href=&#34;https://itunes.apple.com/ca/app/studying.io-tech-interview/id776410587?mt=8&#34;&gt;studying.io&lt;/a&gt;&amp;nbsp;app on the App Store.
+Swap two numbers in place without using temporary variables.
+123, 345
+345, 123
+This question was originally written for C. In Go, you can kind of hack this one by doing this trick:
+And you&amp;rsquo;ve effectively swapped the two. Obviously, that&amp;rsquo;s a huge cheat.
+I&amp;rsquo;m going to admit that I had to look this one up. The solution to this ended up just being one of those &amp;ldquo;tricksy algorithmssss&amp;rdquo; moments, in my opinion.&lt;/p&gt;
+
+&lt;p&gt;What this question is trying to drive at is using XOR (exclusive OR) to swap these variables.
+If you haven&amp;rsquo;t really used bitwise operators, this problem&amp;rsquo;s going to be a bit of a doozy. Ok, so, let&amp;rsquo;s go back to the basics. At the very basic level, XORs work this way:
+The really important thing to keep in mind here is that anything XOR&amp;rsquo;d to itself is 0.
+That&amp;rsquo;s my solution in full. The important bit is just the entire series of XORing that happens in main().
+So let&amp;rsquo;s break that down into something a little more clear.
+This technique is fine and dandy to use when we&amp;rsquo;re learning algorithms, like we are now, but there&amp;rsquo;s no real reason to do this in your actual code. This will just confuse the shit out of everybody, and all your coworkers will probably hate you.
+There are also some other caveats that have to do with how the variables are stored that are discussed in depth on &lt;a href=&#34;https://betterexplained.com/articles/swap-two-variables-using-xor/&#34;&gt;Better Explained&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WTF Algorithms - Add Two Numbers Represented as Linked Lists in Reverse Order</title>
+      <link>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Add%20Two%20Numbers%20Represented%20as%20Linked%20Lists%20in%20Reverse%20Order/</link>
+      <pubDate>Mon, 13 Mar 2017 05:03:20 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/WTF%20Algorithms%20-%20Add%20Two%20Numbers%20Represented%20as%20Linked%20Lists%20in%20Reverse%20Order/</guid>
+      <description>&lt;p&gt;:&amp;nbsp;You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order. You may assume the two numbers do not contain any leading zero, except the number 0 itself.&amp;nbsp;
+(2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4)
+(7 -&amp;gt; 0 -&amp;gt; 8)
+Having never taken a formal CS class outside of a C++ 101 class, my first reaction to this problem was &amp;ldquo;WTF is a linked list?&amp;rdquo; To the Google for answers!
+A linked list is a list of elements that contain a value and a reference to the next element in the list. There are two types of linked lists:
+* Singly linked lists - Singly linked lists are as described above. They contain a value and a reference to the next element in the list.* Doubly linked lists - A doubly linked list just contains a reference to the previous node as well as the next node. Otherwise, it&amp;rsquo;s identical to the singly linked list.Other key things about linked lists to keep in mind:
+* Has the advantage over arrays in that it&amp;rsquo;s dynamic in size.&amp;nbsp;* You cannot directly access elements. You have to iterate over them to get a specific one.* The &amp;nbsp;of a list is the first element/node in the list.For more on linked lists (including implementation of things like prepending and appending elements to a list), read&lt;a href=&#34;https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html&#34;&gt; this&lt;/a&gt;.
+I haven&amp;rsquo;t seen linked lists really used in Go. Since Go has slices, which can are essentially dynamically sized arrays, there&amp;rsquo;s really no reason to use linked lists. However, there is an implementation of lists via &lt;a href=&#34;https://golang.org/pkg/container/list/#Init&#34;&gt;this list package&lt;/a&gt;. It implements a doubly linked list and already contains some of the most useful functions for prepending/appending elements to a list, or inserting/removing specific elements. I&amp;rsquo;ll be using this package instead of other implementations for solving this example.
+Ok, let&amp;rsquo;s jump back to the problem. We&amp;rsquo;re essentially just going the most roundabout way to add 342 + 465. Our final answer is going to be a list that&amp;rsquo;s the reverse of the sum. Our sum is 807, so we&amp;rsquo;re going to expect our answer to look something like 7 -&amp;gt; 0 -&amp;gt; 8.
+Since we already know what our answer should look like, we just need to figure out the way to get there.&amp;nbsp;
+Here&amp;rsquo;s what we know:
+* We&amp;rsquo;re being given both numbers in reverse as a linked list* The only way we can really interact with linked lists is to iterate through them* The numbers will not contain any leading zeroesThe input that we&amp;rsquo;ve been given has the same length for both numbers, and even if they weren&amp;rsquo;t the same length, summing things up aren&amp;rsquo;t going to be horribly difficult, since each of the places are always going to match up since they&amp;rsquo;re reversed. I know I&amp;rsquo;m not being horribly clear when I say this, but it would be a lot more difficult to sum up something like 342+1042 if we had two linked lists that represented them without reversal. That would mean that the ones, tens, hundreds, and thousands places wouldn&amp;rsquo;t necessarily match up. Since our numbers are reversed, that will never be the case.&amp;nbsp;
+Since we&amp;rsquo;re being fed lists and we can return lists, I realized that, for the most part, we can just get the sum of each element from both lists as they come and add them into our sumList. What do I mean?
+The above is my naive implementation. I&amp;rsquo;m essentially going to be iterating through the list, so long as list1 and list2 have elements. Once I get the sum, I set sum to 0 so it&amp;rsquo;s empty for the next loop&amp;rsquo;s sum, and I set the currentElement for each list to be the next one so we can continue the loop.
+However, we&amp;rsquo;re going to run into a snag. When we get to the second element of both lists&amp;hellip; 4 and 6, respectively, we&amp;rsquo;re going to end up with a sum of 10. This is where the naive implementation breaks down. If we follow through with this, we&amp;rsquo;re going to end up with a result of 7-&amp;gt;10-&amp;gt;7, which is not quite right.
+Ok, so we essentially need a way to carry over any time our sum goes over 10 into the next list, while keeping the remainder of whatever the sum is subtracted by 10 in our current list. Whenever I run into something where I need to keep track of the remainder, I know that I&amp;rsquo;m going to have to do something with modulus.
+This new implementation is a little more complicated. It keeps track of a carryover value (which will always be 1, because any single digit sum will never exceed having a 1 carry over - 9+9 = 18). Essentially, it&amp;rsquo;s the same implementation as before, except we&amp;rsquo;re going to be getting adding the modulus of the sum and 10, since we only want the modulus value and the carry over to be tracked in the next node. (Example, if we had a sum of 18, we&amp;rsquo;d only be storing 18%10, which is 8 in the list.) We&amp;rsquo;re also checking to see if the sum at the end is greater than 10. If it is, we ensure that the carryover value is set to 1, so that it can be included in the sum on the next loop.
+If you want to see my answer in depth, it&amp;rsquo;s &lt;a href=&#34;https://github.com/catherinetcai/algorithms/tree/master/airbnb/add_two_numbers&#34;&gt;here&lt;/a&gt; (with a test case and all!) I realize that this isn&amp;rsquo;t the most elegant solution, but it does work in a pinch. If you&amp;rsquo;re going for gold though, here are some ways that it can improve:
+* This won&amp;rsquo;t sum up lists that don&amp;rsquo;t match exactly in value. Implement something so that it can sum up things like 3-&amp;gt;4-&amp;gt;2 and 1 -&amp;gt; 0 -&amp;gt; 4 -&amp;gt; 1.* The carryover being manually set as 1 and 0 is pretty gross. You can make this more elegant.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Expvars and pprof with Gorilla mux</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Expvars%20and%20pprof%20with%20Gorilla%20mux/</link>
+      <pubDate>Wed, 11 Jan 2017 00:49:02 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Expvars%20and%20pprof%20with%20Gorilla%20mux/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently been looking into profiling Go apps, since one of the ones I&amp;rsquo;ve been working on is mysteriously crashing.
+I was recommended &lt;a href=&#34;https://golang.org/pkg/expvar/&#34;&gt;expvar&lt;/a&gt;&amp;nbsp;and &lt;a href=&#34;https://golang.org/pkg/net/http/pprof/&#34;&gt;pprof&lt;/a&gt;. Unfortunately, most of the examples I saw on the Internet were simplistic. They usually involved importing expvar and pprof, and having the packages hijack /debug/vars and /debug/pprof.&amp;nbsp;
+The app I&amp;rsquo;m working on is using &lt;a href=&#34;https://github.com/gorilla/mux&#34;&gt;Gorilla mux&lt;/a&gt; for routing, so the setup wasn&amp;rsquo;t quite as simplistic. We were registering routes by breaking up services and having the router register each service&amp;rsquo;s routes individually. This would allow services their own namespace without having to manually add them in each route (ex. the debug services&amp;rsquo;s routes would be available at &amp;ldquo;www.host.com/debug/&amp;hellip;&amp;rdquo;)
+In any case, this setup will work with mux if you want custom routes, etc:&amp;nbsp;
+And for expvar, all you need to do is the following:
+I added this into my Debug service, so everything was available at &lt;a href=&#34;http://my-host.com/debug/pprof&#34;&gt;http://my-host.com/debug/pprof&lt;/a&gt; and &lt;a href=&#34;http://my-host.com/debug/vars&#34;&gt;http://my-host.com/debug/vars&lt;/a&gt;.
+ &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - MySQL Username Character Limit</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20MySQL%20Username%20Character%20Limit/</link>
+      <pubDate>Wed, 21 Dec 2016 06:01:46 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20MySQL%20Username%20Character%20Limit/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s TIL is a quick one. While working on an application at work for spinning up application clusters with configurations/schema, I encountered this lovely error:&amp;nbsp;
+Nice. (Also, don&amp;rsquo;t mind the dominant-paramour. That&amp;rsquo;s just a very&amp;hellip; Grindr-appropriate petname generator we came up with.)
+Apparently, in MySQL versions prior to 5.7.8, usernames can&amp;rsquo;t be more than 16 characters. &lt;a href=&#34;http://dev.mysql.com/doc/refman/5.7/en/user-names.html&#34;&gt;Yup, that&amp;rsquo;s hardcoded in clients and the server.&lt;/a&gt;&amp;nbsp;After 5.7.8, the limitation is upped to 32 characters.&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Application Layer Protocol Negotiation (ALPN)</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Application%20Layer%20Protocol%20Negotiation%20%28ALPN%29/</link>
+      <pubDate>Sat, 23 Jul 2016 02:01:23 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Application%20Layer%20Protocol%20Negotiation%20%28ALPN%29/</guid>
+      <description>
+
+&lt;h2 id=&#34;missed-the-tils-by-a-month-whoops-things-in-my-personal-life-are-in-motion-and-i-ve-got-to-get-moving-settled-before-i-can-dedicate-fully-to-writing-these-daily:a02cb894c3a53e1363263deed5cd763b&#34;&gt;Missed the TILs by a month. Whoops. Things in my personal life are in motion&amp;hellip; and I&amp;rsquo;ve got to get moving settled before I can dedicate fully to writing these daily.&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been reading through . Highly recommended read for anyone who wants to delve more into TCP/IP, HTTP, TLS, etc.
+ALPN is a TLS extension that allows peers to negotiate a protocol for communication without additional roundtrips (which adds latency). The client appends a list of supported protocols to a message that&amp;rsquo;s passed to the server, and the server inspects the list and returns a protocol back to the client that it supports. Should the server not support anything within the client&amp;rsquo;s supported list of protocols, it can terminate the connection.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Git Cherry-Picking Multiple Commits</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Git%20Cherry-Picking%20Multiple%20Commits/</link>
+      <pubDate>Mon, 27 Jun 2016 23:09:25 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Git%20Cherry-Picking%20Multiple%20Commits/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s is pretty simple.
+The syntax is:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Docker Mac OS Beta Integration With IntelliJ</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Docker%20Mac%20OS%20Beta%20Integration%20With%20IntelliJ/</link>
+      <pubDate>Thu, 23 Jun 2016 18:47:46 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Docker%20Mac%20OS%20Beta%20Integration%20With%20IntelliJ/</guid>
+      <description>&lt;p&gt;After attending DockerCon 2016, I was inspired to start getting my workflow geared more towards Docker overall. I jumped into the open Docker beta and I installed the Docker Integration plugin in IntelliJ.
+I found out soon afterwards that the instructions are out of date and the plugin hasn&amp;rsquo;t been upgraded to support the new beta. The instructions still use docker-machine.
+Thankfully, there was this &lt;a href=&#34;http://blog.dekstroza.io/osx-docker-beta-intellj-playing-nicely/&#34;&gt;guide here&lt;/a&gt;&amp;nbsp;that documents out the steps to get IntelliJ talking to your Docker engine. Underneath the covers, the Docker beta on Mac no longer uses Virtualbox, but the xhyve hypervisor. The end user no longer has access to the DOCKER_HOST IP. The guide basically uses socat to funnel traffic from a unix domain socket to TCP so that the plugin can get access to it.
+The only problem is that the latest version of the Docker Integration plugin (2.2.1) doesn&amp;rsquo;t support tcp url structures. The guide is wrong in that sense. It&amp;rsquo;s actually an easy fix&amp;hellip; just swap things over to http:// and you&amp;rsquo;re golden.
+ &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Ruby&#39;s Module #refine</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Ruby%27s%20Module%20/</link>
+      <pubDate>Wed, 01 Jun 2016 20:20:20 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Ruby%27s%20Module%20/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0:48f341c602c44338aa623a5499ed4767&#34;&gt;.&lt;/h2&gt;
+
+&lt;p&gt;I was reading Sandi Metz&amp;rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that was introduced in Ruby 2.0 that I just never was aware of. To be fair, I&amp;rsquo;ve never jumped too far into the world of Ruby monkey patching.
+Example/use:
+Refine enhances the class String in the Foo module. Now, if you were to use Foo in a class called Bar, and call the hello, it&amp;rsquo;ll be able to use &amp;ldquo;Hello, World&amp;rdquo;. If you directly called it saying String.new.say&amp;hellip; you&amp;rsquo;d get a NoMethodError back because it was not defined on the String class itself.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Hystrix&#39;s HystrixCommand vs HystrixObservableCommand</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Hystrix%27s%20HystrixCommand%20vs%20HystrixObservableCommand/</link>
+      <pubDate>Wed, 18 May 2016 00:21:26 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Hystrix%27s%20HystrixCommand%20vs%20HystrixObservableCommand/</guid>
+      <description>&lt;p&gt;I had my first brush with Netflix&amp;rsquo;s &lt;a href=&#34;https://github.com/Netflix/Hystrix&#34;&gt;Hystrix&lt;/a&gt;&amp;nbsp;and RxJava today. I can&amp;rsquo;t say I fully understand how Hystrix works&amp;hellip; but one step at a time.
+The first problem a coworker and I encountered when using Hystrix was figuring out the difference between HystrixCommand and HystrixObservableCommand. The documentation on Github isn&amp;rsquo;t really clear. According to this &lt;a href=&#34;http://stackoverflow.com/questions/35569560/difference-between-hystrixcommand-and-hystrixobservablecommand&#34;&gt;SO post&lt;/a&gt;, there doesn&amp;rsquo;t actually seem to be that much difference. HystrixCommand and HystrixObservableCommand have some overlap. They both can have the .observe() method called on them for asynchronous calls.
+Seems like HystrixObservableCommand is just HystrixCommand for wrapping Observable calls. Calling the .observe() instead of .execute() on a command returns an Observable that can be subscribed to.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Java Interface as Return Type</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Interface%20as%20Return%20Type/</link>
+      <pubDate>Mon, 16 May 2016 18:15:00 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Java%20Interface%20as%20Return%20Type/</guid>
+      <description>&lt;p&gt;I learned a bit about Java Interfaces by reviewing the Oracle Java 8 documentation. I didn&amp;rsquo;t realize that interfaces could be used to declare a return type if you&amp;rsquo;re not sure of the type you&amp;rsquo;re going to get back, but you know for a fact that it&amp;rsquo;s going to implement an interface.
+So you can apparently declare something like so:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL - Pulling Single Files in Git from Another Branch</title>
+      <link>https://catherinetcai.github.io/posts/TIL%20-%20Pulling%20Single%20Files%20in%20Git%20from%20Another%20Branch/</link>
+      <pubDate>Wed, 11 May 2016 23:44:12 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://catherinetcai.github.io/posts/TIL%20-%20Pulling%20Single%20Files%20in%20Git%20from%20Another%20Branch/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s actually pretty easy to pull other files from a commit from another branch&amp;hellip;
+Syntax:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
