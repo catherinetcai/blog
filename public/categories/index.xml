@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Catherine Cai</title>
-    <link>https://catherinetcai.github.io/categories/</link>
+    <link>catherinetcai.com/categories/</link>
     <description>Recent content in Categories on Catherine Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
     <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
     <lastBuildDate>Tue, 08 Aug 2017 15:18:24 +0000</lastBuildDate>
     
-	<atom:link href="https://catherinetcai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="catherinetcai.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Avsnitt</title>
-      <link>https://catherinetcai.github.io/categories/avsnitt/</link>
+      <link>catherinetcai.com/categories/avsnitt/</link>
       <pubDate>Tue, 08 Aug 2017 15:18:24 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://catherinetcai.github.io/categories/avsnitt/</guid>
+      <guid>catherinetcai.com/categories/avsnitt/</guid>
       <description></description>
     </item>
     
