@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
     <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
-    <lastBuildDate>Sun, 17 Sep 2017 22:52:43 -0700</lastBuildDate>
     
 	<atom:link href="https://www.catherinetcai.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +14,7 @@
     <item>
       <title>Migrating From SquareSpace to Hugo</title>
       <link>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</link>
-      <pubDate>Sun, 17 Sep 2017 22:52:43 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
       <guid>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</guid>
       <description>The migration is complete&amp;hellip; almost. Some of my previous blog posts are probably still improperly formatted and some of my lighting portfolio didn&amp;rsquo;t seem to make the cut at all.

@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</loc>
-    <lastmod>2017-09-17T22:52:43-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.catherinetcai.com/posts/til-tshark/</loc>
     <lastmod>2017-08-08T15:18:24+00:00</lastmod>
   </url>
@@ -376,13 +371,17 @@
   
   <url>
     <loc>https://www.catherinetcai.com/</loc>
-    <lastmod>2017-09-17T22:52:43-07:00</lastmod>
+    <lastmod>2017-08-08T15:18:24+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.catherinetcai.com/posts/</loc>
-    <lastmod>2017-09-17T22:52:43-07:00</lastmod>
+    <lastmod>2017-08-08T15:18:24+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -393,7 +392,6 @@
   
   <url>
     <loc>https://www.catherinetcai.com/categories/til/</loc>
-    <lastmod>2017-09-17T22:52:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
