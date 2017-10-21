@@ -2,6 +2,7 @@
 title: "Migrating From SquareSpace to Hugo"
 date: 2017-09-17T22:52:43-07:00
 draft: false
+categories: ["til"]
 ---
 
 The migration is complete... almost. Some of my previous blog posts are probably still improperly formatted and some of my lighting portfolio didn't seem to make the cut at all.

@@ -1,4 +1,4 @@
-baseurl = "catherinetcai.com"
+baseurl = "https://www.catherinetcai.com"
 DefaultContentLanguage = "en"
 title = "Catherine Cai"
 theme = "beautifulhugo"
