@@ -6,7 +6,7 @@ deploy:
 	./deploy.sh
 
 run:
-	hugo serve
+	hugo serve -D
 	
 git-recurse:
 	git submodule update --recursive

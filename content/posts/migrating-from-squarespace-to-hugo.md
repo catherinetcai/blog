@@ -1,7 +1,9 @@
 ---
 title: "Migrating From SquareSpace to Hugo"
-date: 2017-09-17T22:52:43-07:00
+date: 2017-09-17
+publishDate: 2017-09-17
 draft: false
+aliases: ["/blog/2017/9/17/migrating-squarespace"]
 categories: ["til"]
 ---
 
