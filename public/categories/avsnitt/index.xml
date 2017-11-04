@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Avsnitt on Catherine Cai</title>
-    <link>https://www.catherinetcai.com/categories/avsnitt/</link>
+    <link>catherinetcai.com/categories/avsnitt/</link>
     <description>Recent content in Avsnitt on Catherine Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
     <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
     <lastBuildDate>Tue, 08 Aug 2017 15:18:24 +0000</lastBuildDate>
     
-	<atom:link href="https://www.catherinetcai.com/categories/avsnitt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="catherinetcai.com/categories/avsnitt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TIL: Tshark</title>
-      <link>https://www.catherinetcai.com/posts/til-tshark/</link>
+      <link>catherinetcai.com/posts/til-tshark/</link>
       <pubDate>Tue, 08 Aug 2017 15:18:24 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til-tshark/</guid>
+      <guid>catherinetcai.com/posts/til-tshark/</guid>
       <description>I&amp;rsquo;ve been getting into the nitty gritty with Kubernetes networking and playing around with BGP peering across two VPCs using Calico. I still haven&amp;rsquo;t fully grasped how BGP peering works, so I won&amp;rsquo;t get into that here.&amp;nbsp; Essentially, the problem boiled down to this. I had two Kubernetes clusters running with Calico launched in two different VPCs that were peered to each other. I set up one worker node in each cluster as BGP peers.</description>
     </item>
     
     <item>
       <title>TIL: Name your ASG EC2 Instances</title>
-      <link>https://www.catherinetcai.com/posts/til-name-your-asg-ec2-instances/</link>
+      <link>catherinetcai.com/posts/til-name-your-asg-ec2-instances/</link>
       <pubDate>Wed, 28 Jun 2017 16:05:23 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til-name-your-asg-ec2-instances/</guid>
+      <guid>catherinetcai.com/posts/til-name-your-asg-ec2-instances/</guid>
       <description>Welp, another couple of months. This one though is attributed to life being insane: new job/vacation/new apartment. Enough excuses. Learning more Terraform.&amp;nbsp; Today I learned a bit of a silly one. I was creating a launch configuration that attached to an autoscaling group and noticed that every time I ran it in Terraform that my EC2 instances would come up with no names. Turns out that you have to use the tag field with key &amp;ldquo;Name&amp;rdquo;, value of &amp;lt;your name here&amp;gt;, and propagate_at_launch as true in order for the instance names to be propagated correctly.</description>
     </item>
     
     <item>
       <title>TIL: Migrating from 1Password to KeePass2</title>
-      <link>https://www.catherinetcai.com/posts/til-migrating-from-1password-to-keepass2/</link>
+      <link>catherinetcai.com/posts/til-migrating-from-1password-to-keepass2/</link>
       <pubDate>Fri, 14 Apr 2017 18:10:40 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til-migrating-from-1password-to-keepass2/</guid>
+      <guid>catherinetcai.com/posts/til-migrating-from-1password-to-keepass2/</guid>
       <description>I recently bought a XPS 15&amp;rdquo; in lieu of wanting Macbook-like thinness and specs without the Macbook price tag (also that danging touchbar&amp;hellip;) I ended up not being able to tolerate Windows 10, so I immediately partitioned the hard drive and booted up Elementary OS on a friend&amp;rsquo;s recommendation. I&amp;rsquo;ve dabbled with Linux distros via VM (and I had a short stint where I decided I was going to take a crack at Arch Linux), but I never fully got around to actually going full hog Linux.</description>
     </item>
     
     <item>
       <title>WTF Algorithms - Two Sum</title>
-      <link>https://www.catherinetcai.com/posts/wtf-algorithms---two-sum/</link>
+      <link>catherinetcai.com/posts/wtf-algorithms---two-sum/</link>
       <pubDate>Mon, 20 Mar 2017 01:31:33 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/wtf-algorithms---two-sum/</guid>
+      <guid>catherinetcai.com/posts/wtf-algorithms---two-sum/</guid>
       <description>Today&amp;rsquo;s WTF Algorithms is going to be this LeetCode&amp;rsquo;s Two Sum problem.
 Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exact one solution, and you may not use the same element twice.
 [2,7,11,15], target: 9
@@ -53,604 +53,604 @@ Given an array of integers, return indices of the two numbers such that they add
     
     <item>
       <title>WTF Algorithms - Swapping Numbers in Place Without Temporary Variables</title>
-      <link>https://www.catherinetcai.com/posts/wtf-algorithms---swapping-numbers-in-place-without-temporary-variables/</link>
+      <link>catherinetcai.com/posts/wtf-algorithms---swapping-numbers-in-place-without-temporary-variables/</link>
       <pubDate>Mon, 13 Mar 2017 19:00:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/wtf-algorithms---swapping-numbers-in-place-without-temporary-variables/</guid>
+      <guid>catherinetcai.com/posts/wtf-algorithms---swapping-numbers-in-place-without-temporary-variables/</guid>
       <description>I got this one from the studying.io&amp;nbsp;app on the App Store. Swap two numbers in place without using temporary variables. 123, 345 345, 123 This question was originally written for C. In Go, you can kind of hack this one by doing this trick: And you&amp;rsquo;ve effectively swapped the two. Obviously, that&amp;rsquo;s a huge cheat. I&amp;rsquo;m going to admit that I had to look this one up. The solution to this ended up just being one of those &amp;ldquo;tricksy algorithmssss&amp;rdquo; moments, in my opinion.</description>
     </item>
     
     <item>
       <title>WTF Algorithms - Add Two Numbers Represented as Linked Lists in Reverse Order</title>
-      <link>https://www.catherinetcai.com/posts/wtf-algorithms---add-two-numbers-represented-as-linked-lists-in-reverse-order/</link>
+      <link>catherinetcai.com/posts/wtf-algorithms---add-two-numbers-represented-as-linked-lists-in-reverse-order/</link>
       <pubDate>Mon, 13 Mar 2017 05:03:20 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/wtf-algorithms---add-two-numbers-represented-as-linked-lists-in-reverse-order/</guid>
+      <guid>catherinetcai.com/posts/wtf-algorithms---add-two-numbers-represented-as-linked-lists-in-reverse-order/</guid>
       <description>:&amp;nbsp;You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order. You may assume the two numbers do not contain any leading zero, except the number 0 itself.&amp;nbsp; (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4) (7 -&amp;gt; 0 -&amp;gt; 8) Having never taken a formal CS class outside of a C++ 101 class, my first reaction to this problem was &amp;ldquo;WTF is a linked list?</description>
     </item>
     
     <item>
       <title>TIL - Expvars and pprof with Gorilla mux</title>
-      <link>https://www.catherinetcai.com/posts/til---expvars-and-pprof-with-gorilla-mux/</link>
+      <link>catherinetcai.com/posts/til---expvars-and-pprof-with-gorilla-mux/</link>
       <pubDate>Wed, 11 Jan 2017 00:49:02 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---expvars-and-pprof-with-gorilla-mux/</guid>
+      <guid>catherinetcai.com/posts/til---expvars-and-pprof-with-gorilla-mux/</guid>
       <description>I&amp;rsquo;ve recently been looking into profiling Go apps, since one of the ones I&amp;rsquo;ve been working on is mysteriously crashing. I was recommended expvar&amp;nbsp;and pprof. Unfortunately, most of the examples I saw on the Internet were simplistic. They usually involved importing expvar and pprof, and having the packages hijack /debug/vars and /debug/pprof.&amp;nbsp; The app I&amp;rsquo;m working on is using Gorilla mux for routing, so the setup wasn&amp;rsquo;t quite as simplistic. We were registering routes by breaking up services and having the router register each service&amp;rsquo;s routes individually.</description>
     </item>
     
     <item>
       <title>TIL - MySQL Username Character Limit</title>
-      <link>https://www.catherinetcai.com/posts/til---mysql-username-character-limit/</link>
+      <link>catherinetcai.com/posts/til---mysql-username-character-limit/</link>
       <pubDate>Wed, 21 Dec 2016 06:01:46 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---mysql-username-character-limit/</guid>
+      <guid>catherinetcai.com/posts/til---mysql-username-character-limit/</guid>
       <description>Today&amp;rsquo;s TIL is a quick one. While working on an application at work for spinning up application clusters with configurations/schema, I encountered this lovely error:&amp;nbsp; Nice. (Also, don&amp;rsquo;t mind the dominant-paramour. That&amp;rsquo;s just a very&amp;hellip; Grindr-appropriate petname generator we came up with.) Apparently, in MySQL versions prior to 5.7.8, usernames can&amp;rsquo;t be more than 16 characters. Yup, that&amp;rsquo;s hardcoded in clients and the server.&amp;nbsp;After 5.7.8, the limitation is upped to 32 characters.</description>
     </item>
     
     <item>
       <title>TIL - Application Layer Protocol Negotiation (ALPN)</title>
-      <link>https://www.catherinetcai.com/posts/til---application-layer-protocol-negotiation-alpn/</link>
+      <link>catherinetcai.com/posts/til---application-layer-protocol-negotiation-alpn/</link>
       <pubDate>Sat, 23 Jul 2016 02:01:23 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---application-layer-protocol-negotiation-alpn/</guid>
+      <guid>catherinetcai.com/posts/til---application-layer-protocol-negotiation-alpn/</guid>
       <description>Missed the TILs by a month. Whoops. Things in my personal life are in motion&amp;hellip; and I&amp;rsquo;ve got to get moving settled before I can dedicate fully to writing these daily. I&amp;rsquo;ve been reading through . Highly recommended read for anyone who wants to delve more into TCP/IP, HTTP, TLS, etc. ALPN is a TLS extension that allows peers to negotiate a protocol for communication without additional roundtrips (which adds latency).</description>
     </item>
     
     <item>
       <title>TIL - Git Cherry-Picking Multiple Commits</title>
-      <link>https://www.catherinetcai.com/posts/til---git-cherry-picking-multiple-commits/</link>
+      <link>catherinetcai.com/posts/til---git-cherry-picking-multiple-commits/</link>
       <pubDate>Mon, 27 Jun 2016 23:09:25 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---git-cherry-picking-multiple-commits/</guid>
+      <guid>catherinetcai.com/posts/til---git-cherry-picking-multiple-commits/</guid>
       <description>Today&amp;rsquo;s is pretty simple. The syntax is:</description>
     </item>
     
     <item>
       <title>TIL - Docker Mac OS Beta Integration With IntelliJ</title>
-      <link>https://www.catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/</link>
+      <link>catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/</link>
       <pubDate>Thu, 23 Jun 2016 18:47:46 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/</guid>
+      <guid>catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/</guid>
       <description>After attending DockerCon 2016, I was inspired to start getting my workflow geared more towards Docker overall. I jumped into the open Docker beta and I installed the Docker Integration plugin in IntelliJ. I found out soon afterwards that the instructions are out of date and the plugin hasn&amp;rsquo;t been upgraded to support the new beta. The instructions still use docker-machine. Thankfully, there was this guide here&amp;nbsp;that documents out the steps to get IntelliJ talking to your Docker engine.</description>
     </item>
     
     <item>
       <title>TIL - Ruby&#39;s Module #refine</title>
-      <link>https://www.catherinetcai.com/posts/til---rubys-module-#refine/</link>
+      <link>catherinetcai.com/posts/til---rubys-module-#refine/</link>
       <pubDate>Wed, 01 Jun 2016 20:20:20 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---rubys-module-#refine/</guid>
+      <guid>catherinetcai.com/posts/til---rubys-module-#refine/</guid>
       <description>. I was reading Sandi Metz&amp;rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that was introduced in Ruby 2.0 that I just never was aware of. To be fair, I&amp;rsquo;ve never jumped too far into the world of Ruby monkey patching. Example/use: Refine enhances the class String in the Foo module.</description>
     </item>
     
     <item>
       <title>TIL - Hystrix&#39;s HystrixCommand vs HystrixObservableCommand</title>
-      <link>https://www.catherinetcai.com/posts/til---hystrixs-hystrixcommand-vs-hystrixobservablecommand/</link>
+      <link>catherinetcai.com/posts/til---hystrixs-hystrixcommand-vs-hystrixobservablecommand/</link>
       <pubDate>Wed, 18 May 2016 00:21:26 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---hystrixs-hystrixcommand-vs-hystrixobservablecommand/</guid>
+      <guid>catherinetcai.com/posts/til---hystrixs-hystrixcommand-vs-hystrixobservablecommand/</guid>
       <description>I had my first brush with Netflix&amp;rsquo;s Hystrix&amp;nbsp;and RxJava today. I can&amp;rsquo;t say I fully understand how Hystrix works&amp;hellip; but one step at a time. The first problem a coworker and I encountered when using Hystrix was figuring out the difference between HystrixCommand and HystrixObservableCommand. The documentation on Github isn&amp;rsquo;t really clear. According to this SO post, there doesn&amp;rsquo;t actually seem to be that much difference. HystrixCommand and HystrixObservableCommand have some overlap.</description>
     </item>
     
     <item>
       <title>TIL - Java Interface as Return Type</title>
-      <link>https://www.catherinetcai.com/posts/til---java-interface-as-return-type/</link>
+      <link>catherinetcai.com/posts/til---java-interface-as-return-type/</link>
       <pubDate>Mon, 16 May 2016 18:15:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---java-interface-as-return-type/</guid>
+      <guid>catherinetcai.com/posts/til---java-interface-as-return-type/</guid>
       <description>I learned a bit about Java Interfaces by reviewing the Oracle Java 8 documentation. I didn&amp;rsquo;t realize that interfaces could be used to declare a return type if you&amp;rsquo;re not sure of the type you&amp;rsquo;re going to get back, but you know for a fact that it&amp;rsquo;s going to implement an interface. So you can apparently declare something like so:</description>
     </item>
     
     <item>
       <title>TIL - Pulling Single Files in Git from Another Branch</title>
-      <link>https://www.catherinetcai.com/posts/til---pulling-single-files-in-git-from-another-branch/</link>
+      <link>catherinetcai.com/posts/til---pulling-single-files-in-git-from-another-branch/</link>
       <pubDate>Wed, 11 May 2016 23:44:12 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---pulling-single-files-in-git-from-another-branch/</guid>
+      <guid>catherinetcai.com/posts/til---pulling-single-files-in-git-from-another-branch/</guid>
       <description>It&amp;rsquo;s actually pretty easy to pull other files from a commit from another branch&amp;hellip; Syntax:</description>
     </item>
     
     <item>
       <title>TIL - MySQL Temporary Tables</title>
-      <link>https://www.catherinetcai.com/posts/til---mysql-temporary-tables/</link>
+      <link>catherinetcai.com/posts/til---mysql-temporary-tables/</link>
       <pubDate>Thu, 05 May 2016 15:31:46 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---mysql-temporary-tables/</guid>
+      <guid>catherinetcai.com/posts/til---mysql-temporary-tables/</guid>
       <description>I had to import some data into MySQL from a csv file that I didn&amp;rsquo;t want to persist in a table. I learned that you can create temporary tables in MySQL that function just like a regular table. They don&amp;rsquo;t show up when you call a show tables;.&amp;nbsp; Temporary tables are only visible in the current session and will only remain alive for as long as that session is alive. It will be dropped automatically once the session is closed.</description>
     </item>
     
     <item>
       <title>TIL - Phoenix Scrub Params</title>
-      <link>https://www.catherinetcai.com/posts/til---phoenix-scrub-params/</link>
+      <link>catherinetcai.com/posts/til---phoenix-scrub-params/</link>
       <pubDate>Thu, 05 May 2016 00:06:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---phoenix-scrub-params/</guid>
+      <guid>catherinetcai.com/posts/til---phoenix-scrub-params/</guid>
       <description>The similarities between Phoenix and Rails are eerie. It&amp;rsquo;s nice as a Rails dev moving over into Elixir/Phoenix. Scrub params is apparently supposed to work like Rails&amp;rsquo;s strong params. It scrubs the parameters passed in from the request. It checks to see if the passed in key is required, then it changes it to nil.</description>
     </item>
     
     <item>
       <title>TIL - MySQL Comments</title>
-      <link>https://www.catherinetcai.com/posts/til---mysql-comments/</link>
+      <link>catherinetcai.com/posts/til---mysql-comments/</link>
       <pubDate>Tue, 03 May 2016 16:33:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---mysql-comments/</guid>
+      <guid>catherinetcai.com/posts/til---mysql-comments/</guid>
       <description>This is dumb&amp;hellip; but I haven&amp;rsquo;t worked in MySQL enough to know comments. It&amp;rsquo;s a no-brainer. You can use &amp;lsquo;#&amp;rsquo; or &amp;lsquo;&amp;ndash;&amp;rsquo; to do comments. /* &amp;hellip; */ can be used for creating block comments.</description>
     </item>
     
     <item>
       <title>TIL - Routers &amp; Routees</title>
-      <link>https://www.catherinetcai.com/posts/til---routers--routees/</link>
+      <link>catherinetcai.com/posts/til---routers--routees/</link>
       <pubDate>Mon, 02 May 2016 16:41:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---routers--routees/</guid>
+      <guid>catherinetcai.com/posts/til---routers--routees/</guid>
       <description>I&amp;rsquo;m reading through some of because we&amp;rsquo;re hosting a Q&amp;amp;A with the author at work. The book opens talking about routers and routees, which I&amp;rsquo;m not too familiar with. Routers essentially spawn actors to distribute work. Each actor has a mailbox in which to hold onto messages and &amp;nbsp;upon them. There are different strategies for how routers work: * Random - Using a random strategy, one routee may have way more messages than others.</description>
     </item>
     
     <item>
       <title>TIL - Parallelism vs Concurrency</title>
-      <link>https://www.catherinetcai.com/posts/til---parallelism-vs-concurrency/</link>
+      <link>catherinetcai.com/posts/til---parallelism-vs-concurrency/</link>
       <pubDate>Fri, 29 Apr 2016 21:33:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---parallelism-vs-concurrency/</guid>
+      <guid>catherinetcai.com/posts/til---parallelism-vs-concurrency/</guid>
       <description>I&amp;rsquo;m picking through parts of to get a better grasp on Erlang&amp;rsquo;s OTP. It explains the Erlang idea behind parallelism vs concurrency. Concurrency is the idea that there are many actors running around doing things&amp;hellip; not necessarily at the same time. Parallelism is having a lot of actors running around doing things at the same time. Parallelism didn&amp;rsquo;t require multiple cores on one computer to work - you just had two different computers.</description>
     </item>
     
     <item>
       <title>TIL - Mutex</title>
-      <link>https://www.catherinetcai.com/posts/til---mutex/</link>
+      <link>catherinetcai.com/posts/til---mutex/</link>
       <pubDate>Thu, 28 Apr 2016 18:42:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---mutex/</guid>
+      <guid>catherinetcai.com/posts/til---mutex/</guid>
       <description>I haven&amp;rsquo;t done a lot in the way of multithreading and concurrency in Ruby, so it&amp;rsquo;s a whole new world for me in Java. I came across the concept of mutex at work. I didn&amp;rsquo;t have to touch it, but I got curious about what the term meant. Wikipedia: From what I can tell, in Java, only one thread can own a mutex at a time. If a second thread tries to own the mutex, the first thread must release the mutex first.</description>
     </item>
     
     <item>
       <title>TIL - What is Google Guava?</title>
-      <link>https://www.catherinetcai.com/posts/til---what-is-google-guava/</link>
+      <link>catherinetcai.com/posts/til---what-is-google-guava/</link>
       <pubDate>Wed, 27 Apr 2016 16:06:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---what-is-google-guava/</guid>
+      <guid>catherinetcai.com/posts/til---what-is-google-guava/</guid>
       <description>Since I&amp;rsquo;ve been working in Java, I&amp;rsquo;ve encountered Guava a couple of times. So, what exactly is Guava?&amp;nbsp; It&amp;rsquo;s apparently Google&amp;rsquo;s core libraries for Java projects, so there&amp;rsquo;s just a lot of useful stuff in there for handling concurrency, string processing, etc.&amp;nbsp;</description>
     </item>
     
     <item>
       <title>TIL - A Better Way to Handle Local Gems</title>
-      <link>https://www.catherinetcai.com/posts/til---a-better-way-to-handle-local-gems/</link>
+      <link>catherinetcai.com/posts/til---a-better-way-to-handle-local-gems/</link>
       <pubDate>Tue, 26 Apr 2016 15:17:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---a-better-way-to-handle-local-gems/</guid>
+      <guid>catherinetcai.com/posts/til---a-better-way-to-handle-local-gems/</guid>
       <description>One of my biggest points as a frustration as a Ruby dev was building an app off of local versions of the gem. I would have to point the Gemfile towards a path, which would inevitably break or do weird things during bundle installs. It&amp;rsquo;s also easy to forget those and leave those into the Gemfile before pushing to Git. Apparently, you can also point to a local version of a gem using bundle config.</description>
     </item>
     
     <item>
       <title>TIL - Creating Directories in Java</title>
-      <link>https://www.catherinetcai.com/posts/til---creating-directories-in-java/</link>
+      <link>catherinetcai.com/posts/til---creating-directories-in-java/</link>
       <pubDate>Mon, 25 Apr 2016 16:37:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---creating-directories-in-java/</guid>
+      <guid>catherinetcai.com/posts/til---creating-directories-in-java/</guid>
       <description>Creating directories in Java&amp;rsquo;s simple. It&amp;rsquo;s very much like mkdir in Bash.</description>
     </item>
     
     <item>
       <title>TIL - Inheriting from Modules in Ruby</title>
-      <link>https://www.catherinetcai.com/posts/til---inheriting-from-modules-in-ruby/</link>
+      <link>catherinetcai.com/posts/til---inheriting-from-modules-in-ruby/</link>
       <pubDate>Fri, 22 Apr 2016 16:30:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---inheriting-from-modules-in-ruby/</guid>
+      <guid>catherinetcai.com/posts/til---inheriting-from-modules-in-ruby/</guid>
       <description>Ruby has some weird tricks and quirks, especially when it comes to modules and classes. You can&amp;rsquo;t include a class as a module, but you can do something like this: Wat? Apparently, you can&amp;rsquo;t include Foo itself (so, class Bar ; include Foo is a big no-no). The implementation of modules makes it so that it&amp;rsquo;ll throw an error if you attempt to include something of class Class. However, declaring a Foo.</description>
     </item>
     
     <item>
       <title>TIL - GenServer Callbacks</title>
-      <link>https://www.catherinetcai.com/posts/til---genserver-callbacks/</link>
+      <link>catherinetcai.com/posts/til---genserver-callbacks/</link>
       <pubDate>Thu, 21 Apr 2016 04:43:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---genserver-callbacks/</guid>
+      <guid>catherinetcai.com/posts/til---genserver-callbacks/</guid>
       <description>Elixir has six default callback functions for GenServers. I&amp;rsquo;ll try to briefly explain them: * - Function starts a new server. Returns { :ok, state } on success or { :stop, reason } if it fails.&amp;nbsp;* - Invoked after GenServer.call(pid, request). From is a tuple containing the PID and a unique tag. The state is the server state. It returns { :reply, result, new_state }.&amp;nbsp;* - Invoked after GenServer.cast(pid, request). A successful response is { :noreply, new_state }.</description>
     </item>
     
     <item>
       <title>TIL - Java Optionals</title>
-      <link>https://www.catherinetcai.com/posts/til---java-optionals/</link>
+      <link>catherinetcai.com/posts/til---java-optionals/</link>
       <pubDate>Tue, 19 Apr 2016 22:12:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---java-optionals/</guid>
+      <guid>catherinetcai.com/posts/til---java-optionals/</guid>
       <description>I came across Java Optionals whilst dealing with streams and the .findFirst method. Methods like findFirst() and findAny() don&amp;rsquo;t return the type of what you&amp;rsquo;re applying it to, unfortunately. Instead, it returns an object of the Optional class.&amp;nbsp; Optionals are container objects that may or may not contain a value. Essentially, I learned to fetch the value by calling a get(), or simply returning a orElse(what you want to return) here, if the Optional doesn&amp;rsquo;t contain a value.</description>
     </item>
     
     <item>
       <title>TIL - Slowloris Attack</title>
-      <link>https://www.catherinetcai.com/posts/til---slowloris-attack/</link>
+      <link>catherinetcai.com/posts/til---slowloris-attack/</link>
       <pubDate>Tue, 19 Apr 2016 04:49:47 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---slowloris-attack/</guid>
+      <guid>catherinetcai.com/posts/til---slowloris-attack/</guid>
       <description>Today, at work, we had to deal with a SEV that was related to a Slowloris attack. Our devops folks sent us a handy guide on what exactly a Slowloris attack is. Slowloris a DoS-type of attack that floods a server with multiple, slow requests to take up a server&amp;rsquo;s connections. Webservers are limited to the number of connections they can hold open to not eat up memory.&amp;nbsp; The best ways to deal with a slowloris attack?</description>
     </item>
     
     <item>
       <title>TIL - GenServer Debugs</title>
-      <link>https://www.catherinetcai.com/posts/til---genserver-debugs/</link>
+      <link>catherinetcai.com/posts/til---genserver-debugs/</link>
       <pubDate>Sat, 09 Apr 2016 02:41:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---genserver-debugs/</guid>
+      <guid>catherinetcai.com/posts/til---genserver-debugs/</guid>
       <description>Back to the Elixir world. I&amp;rsquo;ve been learning a little more about GenServers, which are still wildly confusing to me. I think that&amp;rsquo;s mostly because of unfamiliar syntax. Anyway, &amp;nbsp;teaches a few useful tricks about debugging GenServers. The GenServer.start_link method has a couple of options to make tracing a little easier. This is the syntax: Now, a GenServer method is called, the output will show a trace of the incoming calls and the responses.</description>
     </item>
     
     <item>
       <title>TIL - MySQL, UTF8, and Emojis</title>
-      <link>https://www.catherinetcai.com/posts/til---mysql-utf8-and-emojis/</link>
+      <link>catherinetcai.com/posts/til---mysql-utf8-and-emojis/</link>
       <pubDate>Fri, 08 Apr 2016 00:16:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---mysql-utf8-and-emojis/</guid>
+      <guid>catherinetcai.com/posts/til---mysql-utf8-and-emojis/</guid>
       <description>Recently at work, the backend services team had a project to start supporting the moderation of emojis. The idea was to flag emojis in profile text that&amp;rsquo;d potentially be spam or be solicitation of prostitution. We added in methods to allow for emojis to be stored in the database and be matched against in moderation. It looked like it worked with a few emojis that we tested out, and we moved on with our lives.</description>
     </item>
     
     <item>
       <title>TIL - Getting War to Connect to Zookeeper</title>
-      <link>https://www.catherinetcai.com/posts/til---getting-war-to-connect-to-zookeeper/</link>
+      <link>catherinetcai.com/posts/til---getting-war-to-connect-to-zookeeper/</link>
       <pubDate>Thu, 07 Apr 2016 05:28:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---getting-war-to-connect-to-zookeeper/</guid>
+      <guid>catherinetcai.com/posts/til---getting-war-to-connect-to-zookeeper/</guid>
       <description>Probably a TIL cheat. One of my biggest frustrations with Zookeeper was getting params passed in to get the war to connect and see Zookeeper. I couldn&amp;rsquo;t for the life of me figure out how to pass in params while Catalina was starting up. And then I realized passing in those options was as easy as updating an ENV variable. -_- This can either be passed in as a step when starting up the docker container, in the Dockerfile, or in the docker-compose.</description>
     </item>
     
     <item>
       <title>TIL - Launching a war with Tomcat in Docker</title>
-      <link>https://www.catherinetcai.com/posts/til---launching-a-war-with-tomcat-in-docker/</link>
+      <link>catherinetcai.com/posts/til---launching-a-war-with-tomcat-in-docker/</link>
       <pubDate>Wed, 06 Apr 2016 06:15:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---launching-a-war-with-tomcat-in-docker/</guid>
+      <guid>catherinetcai.com/posts/til---launching-a-war-with-tomcat-in-docker/</guid>
       <description>I&amp;rsquo;ve been working on Dockerizing the backend application at work. It&amp;rsquo;s been a frustrating process, to say the least. I don&amp;rsquo;t think the workflow I&amp;rsquo;ve come up with is the best thing, but it&amp;rsquo;ll take some time before I can work out all the kinks. The most frustrating thing of all was getting everything set up, and then having the war not get launched properly (even though I saw the entire backend app start up).</description>
     </item>
     
     <item>
       <title>TIL - Ecto Changesets</title>
-      <link>https://www.catherinetcai.com/posts/til---ecto-changesets/</link>
+      <link>catherinetcai.com/posts/til---ecto-changesets/</link>
       <pubDate>Mon, 04 Apr 2016 18:58:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---ecto-changesets/</guid>
+      <guid>catherinetcai.com/posts/til---ecto-changesets/</guid>
       <description>The blog engine in Phoenix tutorials I&amp;rsquo;ve been going through have done a good job of explaining what&amp;rsquo;s happening&amp;hellip; but it never really explained what changesets were.&amp;nbsp; I&amp;rsquo;m familiar with Rails&amp;rsquo;s ActiveRecord in database interaction. And thankfully, there&amp;rsquo;s this convenient &amp;ldquo;Ecto for Rails developers&amp;rdquo; guide.&amp;nbsp; In ActiveRecord, you can just make changes to the object to update the database. Elixir has changesets to document the changes that will be sent. You would create a changeset and then call Repo.</description>
     </item>
     
     <item>
       <title>TIL - Elixir Alias</title>
-      <link>https://www.catherinetcai.com/posts/til---elixir-alias/</link>
+      <link>catherinetcai.com/posts/til---elixir-alias/</link>
       <pubDate>Sat, 02 Apr 2016 06:50:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---elixir-alias/</guid>
+      <guid>catherinetcai.com/posts/til---elixir-alias/</guid>
       <description>I&amp;rsquo;m working through Phoenix tutorials to apply my Elixir learning. I&amp;rsquo;m going through this one since I thought it&amp;rsquo;d be useful to walkthrough how Phoenix handles MVC.&amp;nbsp; I came across the use of &amp;lsquo;alias.&amp;rsquo; It does essentially what it sounds like it would do. It allows you to set up an alias for a module name, so by aliasing TestModule.Test as Test, you can just reference it as Test. Aliases are lexically scoped, which means they can be defined inside specific functions and will only be invoked in those functions.</description>
     </item>
     
     <item>
       <title>TIL - Sharing Data From Host Machine and Docker Containers</title>
-      <link>https://www.catherinetcai.com/posts/til---sharing-data-from-host-machine-and-docker-containers/</link>
+      <link>catherinetcai.com/posts/til---sharing-data-from-host-machine-and-docker-containers/</link>
       <pubDate>Thu, 31 Mar 2016 17:55:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---sharing-data-from-host-machine-and-docker-containers/</guid>
+      <guid>catherinetcai.com/posts/til---sharing-data-from-host-machine-and-docker-containers/</guid>
       <description>I&amp;rsquo;ve been working on Dockerizing some apps. It&amp;rsquo;s not a fun time to say the least. Most of the documentation out there is with Rails, Django, and Wordpress, not Java. In fact, there&amp;rsquo;s a startling lack of documentation on Dockerizing for Java. I&amp;rsquo;m assuming it&amp;rsquo;s because Rails/Django apps better lend themselves towards microservice architecture. Java, with its numerous dependencies, works better being deployed as a monolith. Regardless&amp;hellip; it was difficult to find a lot of documentation on configuring apps with Zookeeper.</description>
     </item>
     
     <item>
       <title>TIL - Building and Pushing Docker Images</title>
-      <link>https://www.catherinetcai.com/posts/til---building-and-pushing-docker-images/</link>
+      <link>catherinetcai.com/posts/til---building-and-pushing-docker-images/</link>
       <pubDate>Wed, 30 Mar 2016 18:51:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---building-and-pushing-docker-images/</guid>
+      <guid>catherinetcai.com/posts/til---building-and-pushing-docker-images/</guid>
       <description>I know that I seem to be all over the place. I&amp;rsquo;m learning bits of Docker, Elixir, and Java all at once. I&amp;rsquo;m using Java for work, learning Docker to use down the line &amp;nbsp;work, and learning Elixir for my personal amusement. In any case, this TIL is pretty simple. I&amp;rsquo;d done work with Docker before at a previous job. Most of my time was spent pulling images and building containers.</description>
     </item>
     
     <item>
       <title>TIL - Why GenServers?</title>
-      <link>https://www.catherinetcai.com/posts/til---why-genservers/</link>
+      <link>catherinetcai.com/posts/til---why-genservers/</link>
       <pubDate>Wed, 30 Mar 2016 05:43:24 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---why-genservers/</guid>
+      <guid>catherinetcai.com/posts/til---why-genservers/</guid>
       <description>I&amp;rsquo;ve been doing a lot of Elixir programming with Dave Thomas&amp;rsquo;s . I&amp;rsquo;ve just gotten into the section about concurrency&amp;hellip; specifically the parts about GenServers. Whenever I feel like I&amp;rsquo;m falling behind in grasping a concept, I have to take a step back and ask why I&amp;rsquo;m learning these concepts. It&amp;rsquo;s easy to get caught up in the details of GenServers and nodes. Unfortunately,&amp;nbsp;doesn&amp;rsquo;t necessarily get too much down into the details of why all this message passing is necessary.</description>
     </item>
     
     <item>
       <title>TIL - Unicode Surrogate Pairs</title>
-      <link>https://www.catherinetcai.com/posts/til---unicode-surrogate-pairs/</link>
+      <link>catherinetcai.com/posts/til---unicode-surrogate-pairs/</link>
       <pubDate>Tue, 29 Mar 2016 01:47:02 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---unicode-surrogate-pairs/</guid>
+      <guid>catherinetcai.com/posts/til---unicode-surrogate-pairs/</guid>
       <description>Today, I had to work on a story dealing with emojis for work. Essentially, it had to deal with parsing emojis and flagging certain ones as banned. I wasn&amp;rsquo;t sure what format the emojis were going to come in as in order to test them against the code. I was expecting something along these lines: &amp;ldquo;U+1F4B0&amp;rdquo; or &amp;ldquo;\xF0\x9F\x92\xB0&amp;rdquo; (for the curious, the emoji is 💰). In any case, I got something that came back as u\D83DDCB0.</description>
     </item>
     
     <item>
       <title>TIL - Selection Sort Algorithm</title>
-      <link>https://www.catherinetcai.com/posts/til---selection-sort-algorithm/</link>
+      <link>catherinetcai.com/posts/til---selection-sort-algorithm/</link>
       <pubDate>Fri, 25 Mar 2016 17:56:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---selection-sort-algorithm/</guid>
+      <guid>catherinetcai.com/posts/til---selection-sort-algorithm/</guid>
       <description>Still going through Khan Academy&amp;rsquo;s basic algorithms course. The selection sort algorithm is pretty simple. Essentially, you take an array, loop through the entire array, find the index of the smallest number and swap that with the first index in the array. Repeat the entire process until the array is sorted. The running time of the selection sort algorithm is more interesting. If the length of the array is 8, we loop through the array 8+7+6&amp;hellip; (and so on) or (8+1)(7+2)(6+3)(5+4) times.</description>
     </item>
     
     <item>
       <title>TIL - Big-O Notation</title>
-      <link>https://www.catherinetcai.com/posts/til---big-o-notation/</link>
+      <link>catherinetcai.com/posts/til---big-o-notation/</link>
       <pubDate>Thu, 24 Mar 2016 21:22:38 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---big-o-notation/</guid>
+      <guid>catherinetcai.com/posts/til---big-o-notation/</guid>
       <description>This is continuing with my adventures in attempting to learn and understand algorithms. Yesterday, I learned about Big-Theta notation, which describes the asymptotic bounds of the running time of an algorithm. Big-O notation is very similar to Big-Theta notation, except Big-Theta notation describes both the upper and lower bounds of the running time of an algorithm, whereas Big-O notation only describes the upper asymptotic bound of the running time of an algorithm.</description>
     </item>
     
     <item>
       <title>TIL - Big Θ Theta Notation</title>
-      <link>https://www.catherinetcai.com/posts/til---big-%CE%B8-theta-notation/</link>
+      <link>catherinetcai.com/posts/til---big-%CE%B8-theta-notation/</link>
       <pubDate>Wed, 23 Mar 2016 21:16:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---big-%CE%B8-theta-notation/</guid>
+      <guid>catherinetcai.com/posts/til---big-%CE%B8-theta-notation/</guid>
       <description>On a coworker&amp;rsquo;s prompting, I&amp;rsquo;m trying to learn some stuff on algorithms. Since I lack a CS degree, I never took a class on algorithms. I know it&amp;rsquo;s not going to be an easy journey&amp;hellip; so let&amp;rsquo;s slog through it.&amp;nbsp; I&amp;rsquo;m taking the Khan Academy&amp;rsquo;s primer on Algorithms. It introduced me to the concept of Big</description>
     </item>
     
     <item>
       <title>TIL - Sending Messages Between Processes in Elixir</title>
-      <link>https://www.catherinetcai.com/posts/til---sending-messages-between-processes-in-elixir/</link>
+      <link>catherinetcai.com/posts/til---sending-messages-between-processes-in-elixir/</link>
       <pubDate>Wed, 23 Mar 2016 00:05:56 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---sending-messages-between-processes-in-elixir/</guid>
+      <guid>catherinetcai.com/posts/til---sending-messages-between-processes-in-elixir/</guid>
       <description>I&amp;rsquo;ve finally gotten to the fun part of &amp;nbsp;- the section about concurrency. I&amp;rsquo;ve only learned how to spawn processes and send messages between these different processes. Pretty simple. Spawning a process is as easy as: Sending and receiving is as simple as:</description>
     </item>
     
     <item>
       <title>TIL - Comprehensions in Elixir</title>
-      <link>https://www.catherinetcai.com/posts/til---comprehensions-in-elixir/</link>
+      <link>catherinetcai.com/posts/til---comprehensions-in-elixir/</link>
       <pubDate>Mon, 21 Mar 2016 21:45:19 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---comprehensions-in-elixir/</guid>
+      <guid>catherinetcai.com/posts/til---comprehensions-in-elixir/</guid>
       <description>I already learned comprehensions the other day in Elixir. This is more like a TIL&amp;hellip; and I will REMEMBER that I learned it. The comprehension is just syntactical sugar for mapping and filtering collections.&amp;nbsp; result = for &amp;nbsp;or &amp;hellip; [, into:&amp;nbsp;], do:</description>
     </item>
     
     <item>
       <title>TIL - Elixir Streams</title>
-      <link>https://www.catherinetcai.com/posts/til---elixir-streams/</link>
+      <link>catherinetcai.com/posts/til---elixir-streams/</link>
       <pubDate>Fri, 18 Mar 2016 17:30:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---elixir-streams/</guid>
+      <guid>catherinetcai.com/posts/til---elixir-streams/</guid>
       <description>I&amp;rsquo;ll give you the tl;dr up front:&amp;nbsp;Enumerables are greedy. Streams are lazy. Essentially, that means that Elixir will wait to process all of an enumerable before it gives you back the result, whereas streams will use only what is required to be evaluated. Dave Thomas gives the example of reading data from a remote server. Using an Enum would take a very long time, since lines of data would arrive slowly, and the Enum would require all of the data before processing started.</description>
     </item>
     
     <item>
       <title>TIL - Listing a Module&#39;s Methods in IEx</title>
-      <link>https://www.catherinetcai.com/posts/til---listing-a-modules-methods-in-iex/</link>
+      <link>catherinetcai.com/posts/til---listing-a-modules-methods-in-iex/</link>
       <pubDate>Thu, 17 Mar 2016 22:06:40 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---listing-a-modules-methods-in-iex/</guid>
+      <guid>catherinetcai.com/posts/til---listing-a-modules-methods-in-iex/</guid>
       <description>In Ruby, you can query any object for a list of its public methods just by calling &amp;lsquo;methods&amp;rsquo; on it. There&amp;rsquo;s a similar function in Elixir (sort of.) You can grab any module&amp;rsquo;s methods just by typing it&amp;rsquo;s name, followed by a &amp;lsquo;.&amp;rsquo; in IEx and then hitting tab. It&amp;rsquo;ll bring out a list of that module&amp;rsquo;s functions. Example image</description>
     </item>
     
     <item>
       <title>TIL - Pry in Elixir</title>
-      <link>https://www.catherinetcai.com/posts/til---pry-in-elixir/</link>
+      <link>catherinetcai.com/posts/til---pry-in-elixir/</link>
       <pubDate>Thu, 17 Mar 2016 00:50:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---pry-in-elixir/</guid>
+      <guid>catherinetcai.com/posts/til---pry-in-elixir/</guid>
       <description>There&amp;rsquo;ve been no TILs in the past few days because I&amp;rsquo;ve been on vacation on a trip to Seattle. My brain needed a braincation, so complete detoxing on learning. I&amp;rsquo;ve been doing some Exercism&amp;nbsp;exercises to practice Elixir syntax/thinking. I realized I wanted something similar to Ruby&amp;rsquo;s pry debugger to be able to step into my code. Thankfully, Elixir does have something similar. It simply involves inserting &amp;lsquo;require IEx&amp;rsquo; into the module you&amp;rsquo;re going to be using the debugger.</description>
     </item>
     
     <item>
       <title>TIL - That Z-Index is not always as it seems...</title>
-      <link>https://www.catherinetcai.com/posts/til---that-z-index-is-not-always-as-it-seems.../</link>
+      <link>catherinetcai.com/posts/til---that-z-index-is-not-always-as-it-seems.../</link>
       <pubDate>Thu, 10 Mar 2016 23:17:17 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---that-z-index-is-not-always-as-it-seems.../</guid>
+      <guid>catherinetcai.com/posts/til---that-z-index-is-not-always-as-it-seems.../</guid>
       <description>I read an enlightening article about z-index today. Z-index seemed pretty simple to me: the higher the value, the higher it&amp;rsquo;s position in a stack of elements. Simple.&amp;nbsp; Nope. The article above basically explained that z-index essentially functions that way, but there are some weird quirks.&amp;nbsp; * Z-index only works on elements that aren&amp;rsquo;t statically positioned* Z-index works off of stacking context* WTF is stacking context? - Every stacking context has a root element as the start.</description>
     </item>
     
     <item>
       <title>TIL - CSS Linear Gradients</title>
-      <link>https://www.catherinetcai.com/posts/til---css-linear-gradients/</link>
+      <link>catherinetcai.com/posts/til---css-linear-gradients/</link>
       <pubDate>Thu, 10 Mar 2016 06:17:36 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---css-linear-gradients/</guid>
+      <guid>catherinetcai.com/posts/til---css-linear-gradients/</guid>
       <description>Since I&amp;rsquo;m doing so many CSS things today for work, I thought it&amp;rsquo;d be worthwhile to post about CSS. The syntax for CSS gradients is as follows: </description>
     </item>
     
     <item>
       <title>TIL - CSS3 Object-fit: cover</title>
-      <link>https://www.catherinetcai.com/posts/til---css3-object-fit-cover/</link>
+      <link>catherinetcai.com/posts/til---css3-object-fit-cover/</link>
       <pubDate>Wed, 09 Mar 2016 01:47:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---css3-object-fit-cover/</guid>
+      <guid>catherinetcai.com/posts/til---css3-object-fit-cover/</guid>
       <description>CSS3 is black magic.&amp;nbsp; I&amp;rsquo;ve been trying to responsively re-adjust the height and crop the image of a carousel. The problem I was dealing with was in regards to a design meant for smaller screens. I just couldn&amp;rsquo;t figure out how to get the image to crop right using JavaScript. Then I stumbled across this Medium article.&amp;nbsp; One line of CSS literally solved all my problems.&amp;nbsp; Basically, object-fit:cover works with a set width and height (which I was setting via JS based off screen height.</description>
     </item>
     
     <item>
       <title>TIL: Render vs redirect_to in Rails</title>
-      <link>https://www.catherinetcai.com/posts/til-render-vs-redirect_to-in-rails/</link>
+      <link>catherinetcai.com/posts/til-render-vs-redirect_to-in-rails/</link>
       <pubDate>Mon, 07 Mar 2016 22:35:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til-render-vs-redirect_to-in-rails/</guid>
+      <guid>catherinetcai.com/posts/til-render-vs-redirect_to-in-rails/</guid>
       <description>Render vs redirect_to is one of the finer points of Rails I never really learned about. At my last job, I was pretty much told to use redirect_to whenever possible. I never really sat down to figure why. I&amp;rsquo;m working on some legacy code now which involves a lot of renders vs redirect_tos. This SO&amp;nbsp;post does a great job explaining the difference. Essentially, render should be used when you want the same request to be submitted, and redirect_to requests a new form.</description>
     </item>
     
     <item>
       <title>TIL - Twitter Bootstrap 2 Scaffolding</title>
-      <link>https://www.catherinetcai.com/posts/til---twitter-bootstrap-2-scaffolding/</link>
+      <link>catherinetcai.com/posts/til---twitter-bootstrap-2-scaffolding/</link>
       <pubDate>Sat, 05 Mar 2016 01:20:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---twitter-bootstrap-2-scaffolding/</guid>
+      <guid>catherinetcai.com/posts/til---twitter-bootstrap-2-scaffolding/</guid>
       <description>I&amp;rsquo;ve been working on some legacy projects in Rails for work. One of the projects is using Rails 3 and Bootstrap-Sass 2.3.1. As a result, I had my first brush with Bootstrap 2. The grid system with Bootstrap 2 is really different from Bootstrap 3. I&amp;rsquo;m used to typing out .col-xs-12 all the time. With Bootstrap 2, it&amp;rsquo;s as trivial as creating a div with a .row class, and then adding a sub-div that has a class of .</description>
     </item>
     
     <item>
       <title>TIL - Elixir Pattern Matching Can&#39;t Bind Keys</title>
-      <link>https://www.catherinetcai.com/posts/til---elixir-pattern-matching-cant-bind-keys/</link>
+      <link>catherinetcai.com/posts/til---elixir-pattern-matching-cant-bind-keys/</link>
       <pubDate>Fri, 04 Mar 2016 00:39:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---elixir-pattern-matching-cant-bind-keys/</guid>
+      <guid>catherinetcai.com/posts/til---elixir-pattern-matching-cant-bind-keys/</guid>
       <description>There are some Elixir pattern matching pitfalls with maps. Valid pattern matching with a map:&amp;nbsp; This is not valid: You can&amp;rsquo;t match item to 1 in this case.&amp;nbsp;</description>
     </item>
     
     <item>
       <title>TIL - The Elixir Pipe Operator</title>
-      <link>https://www.catherinetcai.com/posts/til---the-elixir-pipe-operator/</link>
+      <link>catherinetcai.com/posts/til---the-elixir-pipe-operator/</link>
       <pubDate>Thu, 03 Mar 2016 02:05:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---the-elixir-pipe-operator/</guid>
+      <guid>catherinetcai.com/posts/til---the-elixir-pipe-operator/</guid>
       <description>Ah, yes. The pipe operator. I&amp;rsquo;ve seen it used in Elixir code aplenty. I just wasn&amp;rsquo;t exactly sure what it did. Turns out it&amp;rsquo;s just some syntactical sugar to make your code a little more readable. As opposed to chaining methods like so: You could instead use the |&amp;gt; operator, which takes the result of the expression and inserts it as the first parameter of the function invocation. You can do this instead&amp;hellip; </description>
     </item>
     
     <item>
       <title>TIL - Recursions in Elixir with Pattern Mapping</title>
-      <link>https://www.catherinetcai.com/posts/til---recursions-in-elixir-with-pattern-mapping/</link>
+      <link>catherinetcai.com/posts/til---recursions-in-elixir-with-pattern-mapping/</link>
       <pubDate>Tue, 01 Mar 2016 21:58:54 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---recursions-in-elixir-with-pattern-mapping/</guid>
+      <guid>catherinetcai.com/posts/til---recursions-in-elixir-with-pattern-mapping/</guid>
       <description>I learned about recursions in Elixir using pattern mapping. Very cool stuff. It reminds me a lot of method overloading&amp;hellip; I&amp;rsquo;ll give you an example of using recursion to find the factorial of a number using Ruby first, then the same implementation in Elixir. Ruby: Elixir:</description>
     </item>
     
     <item>
       <title>FizzBuzz with Elixir</title>
-      <link>https://www.catherinetcai.com/posts/fizzbuzz-with-elixir/</link>
+      <link>catherinetcai.com/posts/fizzbuzz-with-elixir/</link>
       <pubDate>Tue, 01 Mar 2016 07:01:43 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/fizzbuzz-with-elixir/</guid>
+      <guid>catherinetcai.com/posts/fizzbuzz-with-elixir/</guid>
       <description>I think my brain just broke. One of the first exercises in &amp;nbsp;on functions is to implement FizzBuzz without any conditionals. It&amp;rsquo;s kind a first dip into functional programming&amp;hellip; and it definitely broke my brain. The implementation is as follows: You then have to call it 7 times and pass it 10 through 16. You can do so with a map:</description>
     </item>
     
     <item>
       <title>TIL - Elixir Tuples and... Files?</title>
-      <link>https://www.catherinetcai.com/posts/til---elixir-tuples-and...-files/</link>
+      <link>catherinetcai.com/posts/til---elixir-tuples-and...-files/</link>
       <pubDate>Sat, 27 Feb 2016 06:16:47 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---elixir-tuples-and...-files/</guid>
+      <guid>catherinetcai.com/posts/til---elixir-tuples-and...-files/</guid>
       <description>Elixir types are interesting. Dave Thomas categorizes tuples as a collections type not common to most languages. I&amp;rsquo;ve seen tuples in action in Python before, so I thought it would be something similar along those lines. Nope. Absolutely wrong. Elixir put its own pattern matching spin on it. Tuples are collections that can contain any data type, and are typically two to four elements.&amp;nbsp; A common use case for tuple pattern matching is in regards to functions.</description>
     </item>
     
     <item>
       <title>TIL - Private Classes in Ruby</title>
-      <link>https://www.catherinetcai.com/posts/til---private-classes-in-ruby/</link>
+      <link>catherinetcai.com/posts/til---private-classes-in-ruby/</link>
       <pubDate>Fri, 26 Feb 2016 00:12:05 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---private-classes-in-ruby/</guid>
+      <guid>catherinetcai.com/posts/til---private-classes-in-ruby/</guid>
       <description>I always took for granted that private classes simply weren&amp;rsquo;t a thing in Ruby.&amp;nbsp; There are a few clever ways to get around the inability to make a private class. The Arkency blog pointed out that a constant can be made private. Therefore, attempting to access that constant to instantiate the class will throw an error, like so: Now, attempting to call Sample::SecretSample throws an error.&amp;nbsp;</description>
     </item>
     
     <item>
       <title>TIL - Immutable Data in Elixir</title>
-      <link>https://www.catherinetcai.com/posts/til---immutable-data-in-elixir/</link>
+      <link>catherinetcai.com/posts/til---immutable-data-in-elixir/</link>
       <pubDate>Thu, 25 Feb 2016 06:59:47 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---immutable-data-in-elixir/</guid>
+      <guid>catherinetcai.com/posts/til---immutable-data-in-elixir/</guid>
       <description>Data in Elixir is immutable. If I were to, for example, match x to a string, and then capitalize the first word of the string, I wouldn&amp;rsquo;t be transforming the original,, but creating a copy and saving the copy.&amp;nbsp; For the most part, there&amp;rsquo;s not much of a noticeable difference, except in the syntax. In Ruby, you&amp;rsquo;d call &amp;ldquo;string&amp;rdquo;.capitalize. In Elixir, it&amp;rsquo;s String.capitalize &amp;ldquo;string.&amp;rdquo;</description>
     </item>
     
     <item>
       <title>TIL - Ruby&#39;s Alias Method</title>
-      <link>https://www.catherinetcai.com/posts/til---rubys-alias-method/</link>
+      <link>catherinetcai.com/posts/til---rubys-alias-method/</link>
       <pubDate>Wed, 24 Feb 2016 00:34:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---rubys-alias-method/</guid>
+      <guid>catherinetcai.com/posts/til---rubys-alias-method/</guid>
       <description>This is less of a TIL and more of a &amp;ldquo;keeping the record straight&amp;rdquo; type of deal. I&amp;rsquo;ve always had issues with remembering the order of Ruby&amp;rsquo;s alias_method method. It really doesn&amp;rsquo;t help that the documentation that&amp;rsquo;s online isn&amp;rsquo;t useful either.&amp;nbsp; So, for the record, the format&amp;rsquo;s actually like so: </description>
     </item>
     
     <item>
       <title>TIL - Elixir - Ignoring Values with the &#39;_&#39;</title>
-      <link>https://www.catherinetcai.com/posts/til---elixir---ignoring-values-with-the-_/</link>
+      <link>catherinetcai.com/posts/til---elixir---ignoring-values-with-the-_/</link>
       <pubDate>Mon, 22 Feb 2016 23:22:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---elixir---ignoring-values-with-the-_/</guid>
+      <guid>catherinetcai.com/posts/til---elixir---ignoring-values-with-the-_/</guid>
       <description>It&amp;rsquo;s good to think of Elixir pattern-matching as&amp;hellip; regex. You don&amp;rsquo;t necessarily always need to capture the value during a match. You can use the underscore in place of a variable. So, you can essentially do something like this: &amp;hellip;And get away with it. Subsequently, if you declare [1, _, _]=[1, &amp;ldquo;cat&amp;rdquo;, &amp;ldquo;dog&amp;rdquo;], it won&amp;rsquo;t blow up in your face.</description>
     </item>
     
     <item>
       <title>TIL - Elixir Pattern Matching</title>
-      <link>https://www.catherinetcai.com/posts/til---elixir-pattern-matching/</link>
+      <link>catherinetcai.com/posts/til---elixir-pattern-matching/</link>
       <pubDate>Fri, 19 Feb 2016 20:54:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---elixir-pattern-matching/</guid>
+      <guid>catherinetcai.com/posts/til---elixir-pattern-matching/</guid>
       <description>Yesterday&amp;rsquo;s TIL talked about matches using the &amp;lsquo;=&amp;rsquo; operator. To recap, a=1 just matches a to 1, so that declaring 2=a after would raise an error. Cooler things can be done with the match operator. I can declare an Elixir list like so: Okay, that&amp;rsquo;s not so different from most other languages. But now, if I declare this: I&amp;rsquo;ve now matched a to 1, b to 2, and c to 3.</description>
     </item>
     
     <item>
       <title>TIL - &#39;=&#39; is not always assignment</title>
-      <link>https://www.catherinetcai.com/posts/til----is-not-always-assignment/</link>
+      <link>catherinetcai.com/posts/til----is-not-always-assignment/</link>
       <pubDate>Thu, 18 Feb 2016 22:49:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til----is-not-always-assignment/</guid>
+      <guid>catherinetcai.com/posts/til----is-not-always-assignment/</guid>
       <description>I started reading through Dave Thomas&amp;rsquo;s . Yes, I&amp;rsquo;m hopping on the Elixir/Phoenix hype train. People in the Ruby community are calling this the future of Rails, so I&amp;rsquo;m going in to see what all the noise is about.&amp;nbsp; This TIL is pretty simple. In most languages, a single &amp;lsquo;=&amp;rsquo; means assignment. If I say x = 12, it means I&amp;rsquo;m assigning 12 to the variable x. Simple. In Elixir, &amp;lsquo;=&amp;rsquo; is a match operator.</description>
     </item>
     
     <item>
       <title>TIL - Java Generics</title>
-      <link>https://www.catherinetcai.com/posts/til---java-generics/</link>
+      <link>catherinetcai.com/posts/til---java-generics/</link>
       <pubDate>Thu, 18 Feb 2016 07:17:00 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---java-generics/</guid>
+      <guid>catherinetcai.com/posts/til---java-generics/</guid>
       <description>Java Generics essentially allow you to code with objects as parameters without having things completely blow up in your face.&amp;nbsp; So how do they work? The syntax for them is as follows: T, which stands for type, is one of the many parameters for generics. To instantiate box, you would have to declare it as such: This now means that you can instantiate any object type of Box with type safety.</description>
     </item>
     
     <item>
       <title>TIL - Dynamic Connectivity and the Union-Find Algorithm</title>
-      <link>https://www.catherinetcai.com/posts/til---dynamic-connectivity-and-the-union-find-algorithm/</link>
+      <link>catherinetcai.com/posts/til---dynamic-connectivity-and-the-union-find-algorithm/</link>
       <pubDate>Wed, 17 Feb 2016 02:00:42 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---dynamic-connectivity-and-the-union-find-algorithm/</guid>
+      <guid>catherinetcai.com/posts/til---dynamic-connectivity-and-the-union-find-algorithm/</guid>
       <description>I don&amp;rsquo;t have any formal training in CS, and as a result I don&amp;rsquo;t have any formal training in algorithms or algorithm-design. I consider this a huge gap in my skill set and I&amp;rsquo;ve been looking over Robert Sedgewick&amp;rsquo;s algorithm course on Coursera to remedy this.&amp;nbsp; The class starts off with dynamic connectivity and the union-find algorithm. The dynamic connectivity structure looks something like this:&amp;nbsp; http://davidmles.com/blog/dynamic-connectivity-ruby/graph1.png If numbers have lines connecting each other, then they&amp;rsquo;re considered &amp;ldquo;connected.</description>
     </item>
     
     <item>
       <title>TIL - Default Methods</title>
-      <link>https://www.catherinetcai.com/posts/til---default-methods/</link>
+      <link>catherinetcai.com/posts/til---default-methods/</link>
       <pubDate>Tue, 16 Feb 2016 05:09:03 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---default-methods/</guid>
+      <guid>catherinetcai.com/posts/til---default-methods/</guid>
       <description>I know I missed TILs in the last two days. I think I&amp;rsquo;ve resolved myself to just doing TILs during the weekdays. Interfaces are part of Java OOP and inheritance. Java interfaces have the signatures of methods (essentially empty method declarations.) They&amp;rsquo;re not allowed to have method implementations, except in the case of default or static methods. Default methods have a syntax like so: The main reason to use default methods, as far as I can tell, is to update interfaces.</description>
     </item>
     
     <item>
       <title>TIL - Java Annotations</title>
-      <link>https://www.catherinetcai.com/posts/til---java-annotations/</link>
+      <link>catherinetcai.com/posts/til---java-annotations/</link>
       <pubDate>Sat, 13 Feb 2016 01:58:10 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---java-annotations/</guid>
+      <guid>catherinetcai.com/posts/til---java-annotations/</guid>
       <description>I think this TIL might as well just become a daily Java series at this point. I&amp;rsquo;ll be regularly posting Java TILs for the foreseeable future, as I try to get fluent as quickly as I can. Java Annotations are an interesting beast. Oracle&amp;rsquo;s defined them as There are a few different types of annotations that work with Java right out of the box. They&amp;rsquo;re @Deprecated, @Override, @SuppressWarnings, @SafeVarargs, @FunctionalInterface. Their names are pretty self-explanatory.</description>
     </item>
     
     <item>
       <title>TIL - Java Exceptions</title>
-      <link>https://www.catherinetcai.com/posts/til---java-exceptions/</link>
+      <link>catherinetcai.com/posts/til---java-exceptions/</link>
       <pubDate>Fri, 12 Feb 2016 06:58:58 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---java-exceptions/</guid>
+      <guid>catherinetcai.com/posts/til---java-exceptions/</guid>
       <description>I&amp;rsquo;ve been learning (or rather, cramming) lots of Java in the past week for my new gig at Grindr. I noticed while looking through some JUnit tests at work that a lot of methods were marked with &amp;lsquo;throws Exception.&amp;rsquo; Having only handled Ruby errors and exceptions, I was a little curious as to why these were marked instead of caught. I found a great informative answer on StackOverflow.&amp;nbsp;It can basically be pared down to this: * An exception is an event that disrupts the execution of a program* You&amp;rsquo;re required to either handle or declare checked exceptions.</description>
     </item>
     
     <item>
       <title>TIL - Shotgun Surgery</title>
-      <link>https://www.catherinetcai.com/posts/til---shotgun-surgery/</link>
+      <link>catherinetcai.com/posts/til---shotgun-surgery/</link>
       <pubDate>Wed, 10 Feb 2016 19:50:09 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---shotgun-surgery/</guid>
+      <guid>catherinetcai.com/posts/til---shotgun-surgery/</guid>
       <description>I came across the the term &amp;nbsp;when reading this article on the factory design pattern.&amp;nbsp;The Wikipedia definition is as follows: In the case of factories, you don&amp;rsquo;t want to have to add the new class name in both the factory and building the class.&amp;nbsp; </description>
     </item>
     
     <item>
       <title>Lighting Design</title>
-      <link>https://www.catherinetcai.com/posts/lighting-design/</link>
+      <link>catherinetcai.com/posts/lighting-design/</link>
       <pubDate>Thu, 03 Dec 2015 21:48:07 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/lighting-design/</guid>
+      <guid>catherinetcai.com/posts/lighting-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim: Weaning off Sublime Text and the Endless Sublime-iTerm Window Swap</title>
-      <link>https://www.catherinetcai.com/posts/vim-weaning-off-sublime-text-and-the-endless-sublime-iterm-window-swap/</link>
+      <link>catherinetcai.com/posts/vim-weaning-off-sublime-text-and-the-endless-sublime-iterm-window-swap/</link>
       <pubDate>Wed, 18 Nov 2015 07:20:14 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/vim-weaning-off-sublime-text-and-the-endless-sublime-iterm-window-swap/</guid>
+      <guid>catherinetcai.com/posts/vim-weaning-off-sublime-text-and-the-endless-sublime-iterm-window-swap/</guid>
       <description>When I started in development, Sublime was my text editor of choice. It was pretty minimal and had a ton of useful plugins that were easy to configure and set up.&amp;nbsp; However, when I started tackling on bigger projects at work, Sublime&amp;rsquo;s ctrl+p slowed to a crawl and I found myself constantly swapping back and forth between iTerm and Sublime to write and run tests. There had to be a better way.</description>
     </item>
     
     <item>
       <title>Welcome</title>
-      <link>https://www.catherinetcai.com/posts/welcome/</link>
+      <link>catherinetcai.com/posts/welcome/</link>
       <pubDate>Fri, 01 May 2015 17:59:53 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/welcome/</guid>
+      <guid>catherinetcai.com/posts/welcome/</guid>
       <description>Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.&amp;nbsp;Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</description>
     </item>
     
