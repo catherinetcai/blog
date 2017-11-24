@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
     <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
-    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 21:33:59 -0800</lastBuildDate>
     
 	<atom:link href="https://www.catherinetcai.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Okta OpenID JWT Validation</title>
+      <link>https://www.catherinetcai.com/posts/okta-openid-jwt-validation/</link>
+      <pubDate>Thu, 23 Nov 2017 21:33:59 -0800</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://www.catherinetcai.com/posts/okta-openid-jwt-validation/</guid>
+      <description>At work I&amp;rsquo;ve been implementing JWT encoding/decoding/validation for an auth service written in Ruby to handle both Okta OpenID Connect. The workflow is fairly straight forward. Once you log in via the Okta web portal, Okta will pass back an ID Token, which is a Base64 encoded JWT. Once decoded using Ruby&amp;rsquo;s Base64 urlsafe_decode64 method, the contents look something like this (taken from here):
+# Header: { &amp;quot;alg&amp;quot;: &amp;quot;RS256&amp;quot;, &amp;quot;kid&amp;quot;: &amp;quot;mLi1UdXCkm90Klq9ZJy5p6rAZx5_X2GQee2E_Lj3eUs&amp;quot; } # Payload: { &amp;quot;sub&amp;quot;: &amp;quot;00a1b33cde4fH5ij60k7&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;myuser@mycompany.</description>
+    </item>
     
     <item>
       <title>Migrating From SquareSpace to Hugo</title>

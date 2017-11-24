@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Categories</title>
-  <meta property="og:title" content="Categories" />
-  <meta name="twitter:title" content="Categories" />
+  <title>Jwt</title>
+  <meta property="og:title" content="Jwt" />
+  <meta name="twitter:title" content="Jwt" />
   <meta name="author" content="Catherine Cai"/>
   <link href='https://www.catherinetcai.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://www.catherinetcai.com/img/avatar-icon.png" />
@@ -15,12 +15,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@catherinetcai" />
   <meta name="twitter:creator" content="@catherinetcai" />
-  <meta property="og:url" content="https://www.catherinetcai.com/categories/" />
+  <meta property="og:url" content="https://www.catherinetcai.com/categories/jwt/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Catherine Cai" />
 
   <meta name="generator" content="Hugo 0.30.2" />
-  <link rel="canonical" href="https://www.catherinetcai.com/categories/" />
+  <link rel="canonical" href="https://www.catherinetcai.com/categories/jwt/" />
   <link rel="alternate" href="https://www.catherinetcai.com/index.xml" type="application/rss+xml" title="Catherine Cai">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -135,26 +135,14 @@
 
 
     
-  
-  
-  
-
-
-
-
-  
-
   <header class="header-section ">
-    
     <div class="intro-header no-img">
-      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="page-heading">
-              <h1>Categories</h1>
-                
-                
+              <h1>#Jwt</h1>
+              <hr class="small">
             </div>
           </div>
         </div>
@@ -162,27 +150,39 @@
     </div>
   </header>
 
-
     
-  
   <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
-      
-      <a href="https://www.catherinetcai.comcategories/avsnitt/" class="list-group-item">
-          avsnitt<span class="badge">71</span></a>
-      
-      <a href="https://www.catherinetcai.comcategories/til/" class="list-group-item">
-          til<span class="badge">2</span></a>
-      
-      <a href="https://www.catherinetcai.comcategories/jwt/" class="list-group-item">
-          jwt<span class="badge">1</span></a>
-      
-      <a href="https://www.catherinetcai.comcategories/okta/" class="list-group-item">
-          okta<span class="badge">1</span></a>
-      
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="https://www.catherinetcai.com/posts/okta-openid-jwt-validation/">
+                <h2 class="post-title">Okta OpenID JWT Validation</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                Posted on November 23, 2017
+              </p>
+              <div class="post-entry">
+                
+                  At work I&rsquo;ve been implementing JWT encoding/decoding/validation for an auth service written in Ruby to handle both Okta OpenID Connect. The workflow is fairly straight forward. Once you log in via the Okta web portal, Okta will pass back an ID Token, which is a Base64 encoded JWT. Once decoded using Ruby&rsquo;s Base64 urlsafe_decode64 method, the contents look something like this (taken from here):
+# Header: { &quot;alg&quot;: &quot;RS256&quot;, &quot;kid&quot;: &quot;mLi1UdXCkm90Klq9ZJy5p6rAZx5_X2GQee2E_Lj3eUs&quot; } # Payload: { &quot;sub&quot;: &quot;00a1b33cde4fH5ij60k7&quot;, &quot;email&quot;: &quot;myuser@mycompany.
+                  <a href="https://www.catherinetcai.com/posts/okta-openid-jwt-validation/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+        </div>
+        
       </div>
-    </article>
+    </div>
   </div>
 
     <footer>
