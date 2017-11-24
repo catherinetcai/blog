@@ -2,8 +2,8 @@
 title: "Okta OpenID JWT Validation"
 date: 2017-11-23T21:33:59-08:00
 draft: true
-aliases = ["/blog/2017/11/23/til-okta-openid-jwt"]
-categories = ["til", "jwt", "okta"]
+aliases:  ["/blog/2017/11/23/til-okta-openid-jwt"]
+categories: ["til", "jwt", "okta"]
 ---
 
 At work I've been implementing JWT encoding/decoding/validation for an auth service written in Ruby to handle both [Okta OpenID Connect](https://developer.okta.com/docs/api/resources/oidc.html). The workflow is fairly straight forward. Once you log in via the Okta web portal, Okta will pass back an ID Token, which is a Base64 encoded JWT. Once decoded using Ruby's [Base64 urlsafe_decode64 method](https://ruby-doc.org/stdlib-2.3.1/libdoc/base64/rdoc/Base64.html#method-i-urlsafe_decode64), the contents look something like this (taken from [here](https://github.com/marlonbernardes/okta-openid-examples)):
