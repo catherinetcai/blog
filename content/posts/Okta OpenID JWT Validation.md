@@ -1,7 +1,7 @@
 ---
 title: "Okta OpenID JWT Validation"
 date: 2017-11-23T21:33:59-08:00
-draft: true
+draft: false
 aliases:  ["/blog/2017/11/23/til-okta-openid-jwt"]
 categories: ["til", "jwt", "okta"]
 ---
