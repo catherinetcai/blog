@@ -291,6 +291,14 @@ end
 )
 </code></pre>
 
+<p><strong>Edit:</strong>
+<a href="https://blog.marshallbrekka.com/">Marshall Brekka</a>, my coworker extraordinaire at Fair, has shown me a better way to handle everything above. It doesn&rsquo;t invalidate what I&rsquo;ve done above, but this is a much more elegant solution. The OpenSSL::BN constructor takes a string and a base. It cleans up the logic significantly:</p>
+
+<pre><code>OpenSSL::BN.new(Base64.decode(e), 2).to_i # =&gt; 65537
+</code></pre>
+
+<p>Whoops. That&rsquo;s definitely a much better and cleaner way to do it than what I did by hand.</p>
+
       </article>
 
       <ul class="pager blog-pager">

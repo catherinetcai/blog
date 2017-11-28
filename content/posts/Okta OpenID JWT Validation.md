@@ -115,3 +115,12 @@ JWT.decode(
   algorithm: 'RS256'
 )
 ```
+
+**Edit:**
+[Marshall Brekka](https://blog.marshallbrekka.com/), my coworker extraordinaire at Fair, has shown me a better way to handle everything above. It doesn't invalidate what I've done above, but this is a much more elegant solution. The OpenSSL::BN constructor takes a string and a base. It cleans up the logic significantly:
+
+```
+OpenSSL::BN.new(Base64.decode(e), 2).to_i # => 65537
+```
+
+Whoops. That's definitely a much better and cleaner way to do it than what I did by hand.
