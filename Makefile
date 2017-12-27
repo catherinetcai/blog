@@ -5,6 +5,15 @@ init:
 deploy:
 	./deploy.sh
 
+checkname:
+ifndef NAME
+	$(error "NAME must be defined for a post")
+endif
+
+
+new: checkname
+	hugo new posts/"$(NAME)"
+
 run:
 	hugo serve -D
 	
