@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
     <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
-    <lastBuildDate>Thu, 23 Nov 2017 21:33:59 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Dec 2017 12:34:49 -0800</lastBuildDate>
     
 	<atom:link href="https://www.catherinetcai.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New Year, Old Me</title>
+      <link>https://www.catherinetcai.com/posts/new-year-old-me/</link>
+      <pubDate>Wed, 27 Dec 2017 12:34:49 -0800</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://www.catherinetcai.com/posts/new-year-old-me/</guid>
+      <description>I&amp;rsquo;m not a New Year&amp;rsquo;s Resolution person, mostly because I don&amp;rsquo;t think they work. I&amp;rsquo;m not opposed to the idea, I just think that they take a wrongheaded approach (for me). Picking up a new habit is a lot of hard work, and I think trying to kick off a new year with the idea that it&amp;rsquo;s going to be a complete &amp;ldquo;fresh start&amp;rdquo; I think puts people in the wrong mindset for setting a habit.</description>
+    </item>
     
     <item>
       <title>Okta OpenID JWT Validation</title>
