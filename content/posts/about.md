@@ -3,8 +3,8 @@ title: "About"
 draft: false
 aliases: ["/page/about"]
 ---
-## About Me
-Hi! My name is Cat Cai. I'm a software engineer who currently bumbles around a lot in Kubernetes and Go. I've also been known to sometimes do Ruby, Python (poorly), and JavaScript (mostly for React Native). 
+## Who I Am 
+Hi! My name is Cat Cai. I'm a software engineer who currently bumbles around a lot in Kubernetes and Go for a great company called Fair (seriously, we're great and we're [hiring](https://www.fair.com/careers)). I've also been known to sometimes do Ruby, Python (poorly), and JavaScript (mostly for React Native). 
 
 In the not-so-distant past I was a tech and games freelance journalist for the likes of [VG247](https://www.vg247.com/) and [Tom's Hardware](https://www.tomshardware.com/). I used to also work as a lighting director and technician around Los Angeles.
 
