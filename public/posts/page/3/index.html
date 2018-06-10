@@ -158,6 +158,28 @@
         <div class="posts-list">
           
             <article class="post-preview">
+              <a href="https://www.catherinetcai.com/posts/til---phoenix-scrub-params/">
+                <h2 class="post-title">TIL - Phoenix Scrub Params</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                Posted on May 5, 2016
+              </p>
+              <div class="post-entry">
+                
+                  <p>The similarities between Phoenix and Rails are eerie. It&rsquo;s nice as a Rails dev moving over into Elixir/Phoenix.
+Scrub params is apparently supposed to work like Rails&rsquo;s strong params. It scrubs the parameters passed in from the request. It checks to see if the passed in key is required, then it changes it to nil.</p>
+
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
               <a href="https://www.catherinetcai.com/posts/til---mysql-comments/">
                 <h2 class="post-title">TIL - MySQL Comments</h2>
 
@@ -341,27 +363,6 @@ It&rsquo;s apparently Google&rsquo;s core libraries for Java projects, so there&
                 
                   Elixir has six default callback functions for GenServers. I&rsquo;ll try to briefly explain them: * - Function starts a new server. Returns { :ok, state } on success or { :stop, reason } if it fails.&nbsp;* - Invoked after GenServer.call(pid, request). From is a tuple containing the PID and a unique tag. The state is the server state. It returns { :reply, result, new_state }.&nbsp;* - Invoked after GenServer.cast(pid, request). A successful response is { :noreply, new_state }.
                   <a href="https://www.catherinetcai.com/posts/til---genserver-callbacks/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.catherinetcai.com/posts/til---java-optionals/">
-                <h2 class="post-title">TIL - Java Optionals</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on April 19, 2016
-              </p>
-              <div class="post-entry">
-                
-                  I came across Java Optionals whilst dealing with streams and the .findFirst method. Methods like findFirst() and findAny() don&rsquo;t return the type of what you&rsquo;re applying it to, unfortunately. Instead, it returns an object of the Optional class.&nbsp; Optionals are container objects that may or may not contain a value. Essentially, I learned to fetch the value by calling a get(), or simply returning a orElse(what you want to return) here, if the Optional doesn&rsquo;t contain a value.
-                  <a href="https://www.catherinetcai.com/posts/til---java-optionals/" class="post-read-more">[Read More]</a>
                 
               </div>
 
