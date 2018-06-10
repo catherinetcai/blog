@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://www.catherinetcai.com/posts/about/</link>
-      <pubDate>Thu, 23 Nov 2017 22:34:34 -0800</pubDate>
-      <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/about/</guid>
-      <description>About Me Hi! My name is Cat Cai. I&amp;rsquo;m a software engineer who currently bumbles around a lot in Kubernetes and Go. I&amp;rsquo;ve also been known to sometimes do Ruby, Python (poorly), and JavaScript (mostly for React Native).
-In the not-so-distant past I was a tech and games freelance journalist for the likes of VG247 and Tom&amp;rsquo;s Hardware. I used to also work as a lighting director and technician around Los Angeles.</description>
-    </item>
-    
-    <item>
       <title>Okta OpenID JWT Validation</title>
       <link>https://www.catherinetcai.com/posts/okta-openid-jwt-validation/</link>
       <pubDate>Thu, 23 Nov 2017 21:33:59 -0800</pubDate>
@@ -691,6 +681,16 @@ Given an array of integers, return indices of the two numbers such that they add
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
       <guid>https://www.catherinetcai.com/posts/welcome/</guid>
       <description>Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.&amp;nbsp;Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.catherinetcai.com/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>catherinetcai@gmail.com (Catherine Cai)</author>
+      <guid>https://www.catherinetcai.com/posts/about/</guid>
+      <description>About Me Hi! My name is Cat Cai. I&amp;rsquo;m a software engineer who currently bumbles around a lot in Kubernetes and Go. I&amp;rsquo;ve also been known to sometimes do Ruby, Python (poorly), and JavaScript (mostly for React Native).
+In the not-so-distant past I was a tech and games freelance journalist for the likes of VG247 and Tom&amp;rsquo;s Hardware. I used to also work as a lighting director and technician around Los Angeles.</description>
     </item>
     
   </channel>

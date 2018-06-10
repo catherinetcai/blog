@@ -158,27 +158,6 @@
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://www.catherinetcai.com/posts/til---that-z-index-is-not-always-as-it-seems.../">
-                <h2 class="post-title">TIL - That Z-Index is not always as it seems...</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Posted on March 10, 2016
-              </p>
-              <div class="post-entry">
-                
-                  I read an enlightening article about z-index today. Z-index seemed pretty simple to me: the higher the value, the higher it&rsquo;s position in a stack of elements. Simple.&nbsp; Nope. The article above basically explained that z-index essentially functions that way, but there are some weird quirks.&nbsp; * Z-index only works on elements that aren&rsquo;t statically positioned* Z-index works off of stacking context* WTF is stacking context? - Every stacking context has a root element as the start.
-                  <a href="https://www.catherinetcai.com/posts/til---that-z-index-is-not-always-as-it-seems.../" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
               <a href="https://www.catherinetcai.com/posts/til---css-linear-gradients/">
                 <h2 class="post-title">TIL - CSS Linear Gradients</h2>
 
@@ -377,6 +356,29 @@ You then have to call it 7 times and pass it 10 through 16. You can do so with a
                 
                   Elixir types are interesting. Dave Thomas categorizes tuples as a collections type not common to most languages. I&rsquo;ve seen tuples in action in Python before, so I thought it would be something similar along those lines. Nope. Absolutely wrong. Elixir put its own pattern matching spin on it. Tuples are collections that can contain any data type, and are typically two to four elements.&nbsp; A common use case for tuple pattern matching is in regards to functions.
                   <a href="https://www.catherinetcai.com/posts/til---elixir-tuples-and...-files/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://www.catherinetcai.com/posts/til---private-classes-in-ruby/">
+                <h2 class="post-title">TIL - Private Classes in Ruby</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                Posted on February 26, 2016
+              </p>
+              <div class="post-entry">
+                
+                  <p>I always took for granted that private classes simply weren&rsquo;t a thing in Ruby.&nbsp;
+There are a few clever ways to get around the inability to make a private class. The <a href="https://blog.arkency.com/2016/02/private-classes-in-ruby/?utm_source=rubyweekly&amp;utm_medium=email">Arkency blog </a>pointed out that a constant can be made private. Therefore, attempting to access that constant to instantiate the class will throw an error, like so:
+Now, attempting to call Sample::SecretSample throws an error.&nbsp;</p>
+
                 
               </div>
 
