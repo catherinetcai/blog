@@ -155,10 +155,10 @@ Given an array of integers, return indices of the two numbers such that they add
     
     <item>
       <title>TIL - Ruby&#39;s Module refine</title>
-      <link>https://www.catherinetcai.com/posts/til---rubys-module-#refine/</link>
+      <link>https://www.catherinetcai.com/posts/rubys-module-refine/</link>
       <pubDate>Wed, 01 Jun 2016 20:20:20 +0000</pubDate>
       <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/til---rubys-module-#refine/</guid>
+      <guid>https://www.catherinetcai.com/posts/rubys-module-refine/</guid>
       <description>. I was reading Sandi Metz&amp;rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that was introduced in Ruby 2.0 that I just never was aware of. To be fair, I&amp;rsquo;ve never jumped too far into the world of Ruby monkey patching. Example/use: Refine enhances the class String in the Foo module.</description>
     </item>
     

@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>TIL - Docker Mac OS Beta Integration With IntelliJ</title>
-  <meta property="og:title" content="TIL - Docker Mac OS Beta Integration With IntelliJ" />
-  <meta name="twitter:title" content="TIL - Docker Mac OS Beta Integration With IntelliJ" />
-  <meta name="description" content="After attending DockerCon 2016, I was inspired to start getting my workflow geared more towards Docker overall. I jumped into the open Docker beta and I installed the Docker Integration plugin in IntelliJ. I found out soon afterwards that the instructions are out of date and the plugin hasn&rsquo;t been upgraded to support the new beta. The instructions still use docker-machine. Thankfully, there was this guide here&nbsp;that documents out the steps to get IntelliJ talking to your Docker engine.">
-  <meta property="og:description" content="After attending DockerCon 2016, I was inspired to start getting my workflow geared more towards Docker overall. I jumped into the open Docker beta and I installed the Docker Integration plugin in IntelliJ. I found out soon afterwards that the instructions are out of date and the plugin hasn&rsquo;t been upgraded to support the new beta. The instructions still use docker-machine. Thankfully, there was this guide here&nbsp;that documents out the steps to get IntelliJ talking to your Docker engine.">
-  <meta name="twitter:description" content="After attending DockerCon 2016, I was inspired to start getting my workflow geared more towards Docker overall. I jumped into the open Docker beta and I installed the Docker Integration plugin in …">
+  <title>TIL - Ruby&#39;s Module refine</title>
+  <meta property="og:title" content="TIL - Ruby&#39;s Module refine" />
+  <meta name="twitter:title" content="TIL - Ruby&#39;s Module refine" />
+  <meta name="description" content=". I was reading Sandi Metz&rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that was introduced in Ruby 2.0 that I just never was aware of. To be fair, I&rsquo;ve never jumped too far into the world of Ruby monkey patching. Example/use: Refine enhances the class String in the Foo module.">
+  <meta property="og:description" content=". I was reading Sandi Metz&rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that was introduced in Ruby 2.0 that I just never was aware of. To be fair, I&rsquo;ve never jumped too far into the world of Ruby monkey patching. Example/use: Refine enhances the class String in the Foo module.">
+  <meta name="twitter:description" content=". I was reading Sandi Metz&rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that …">
   <meta name="author" content="Catherine Cai"/>
   <link href='https://www.catherinetcai.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://www.catherinetcai.com/img/avatar-icon.png" />
@@ -18,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@catherinetcai" />
   <meta name="twitter:creator" content="@catherinetcai" />
-  <meta property="og:url" content="https://www.catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/" />
+  <meta property="og:url" content="https://www.catherinetcai.com/posts/rubys-module-refine/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Catherine Cai" />
 
   <meta name="generator" content="Hugo 0.30.2" />
-  <link rel="canonical" href="https://www.catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/" />
+  <link rel="canonical" href="https://www.catherinetcai.com/posts/rubys-module-refine/" />
   <link rel="alternate" href="https://www.catherinetcai.com/index.xml" type="application/rss+xml" title="Catherine Cai">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -155,7 +155,7 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
-              <h1>TIL - Docker Mac OS Beta Integration With IntelliJ</h1>
+              <h1>TIL - Ruby&#39;s Module refine</h1>
                 
                 
             </div>
@@ -171,23 +171,25 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>After attending DockerCon 2016, I was inspired to start getting my workflow geared more towards Docker overall. I jumped into the open Docker beta and I installed the Docker Integration plugin in IntelliJ.
-I found out soon afterwards that the instructions are out of date and the plugin hasn&rsquo;t been upgraded to support the new beta. The instructions still use docker-machine.
-Thankfully, there was this <a href="http://blog.dekstroza.io/osx-docker-beta-intellj-playing-nicely/">guide here</a>&nbsp;that documents out the steps to get IntelliJ talking to your Docker engine. Underneath the covers, the Docker beta on Mac no longer uses Virtualbox, but the xhyve hypervisor. The end user no longer has access to the DOCKER_HOST IP. The guide basically uses socat to funnel traffic from a unix domain socket to TCP so that the plugin can get access to it.
-The only problem is that the latest version of the Docker Integration plugin (2.2.1) doesn&rsquo;t support tcp url structures. The guide is wrong in that sense. It&rsquo;s actually an easy fix&hellip; just swap things over to http:// and you&rsquo;re golden.
- </p>
+        
+
+<h2 id="toc_0">.</h2>
+
+<p>I was reading Sandi Metz&rsquo;s newsletter about her solution to converting Arabic to Roman numerals. I noticed that she used the #refine method in her Modules. Apparently this was a feature that was introduced in Ruby 2.0 that I just never was aware of. To be fair, I&rsquo;ve never jumped too far into the world of Ruby monkey patching.
+Example/use:
+Refine enhances the class String in the Foo module. Now, if you were to use Foo in a class called Bar, and call the hello, it&rsquo;ll be able to use &ldquo;Hello, World&rdquo;. If you directly called it saying String.new.say&hellip; you&rsquo;d get a NoMethodError back because it was not defined on the String class itself.</p>
 
       </article>
 
       <ul class="pager blog-pager">
         
           <li class="previous">
-            <a href="https://www.catherinetcai.com/posts/rubys-module-refine/" data-toggle="tooltip" data-placement="top" title="TIL - Ruby&#39;s Module refine">&larr; Previous Post</a>
+            <a href="https://www.catherinetcai.com/posts/til---hystrixs-hystrixcommand-vs-hystrixobservablecommand/" data-toggle="tooltip" data-placement="top" title="TIL - Hystrix&#39;s HystrixCommand vs HystrixObservableCommand">&larr; Previous Post</a>
           </li>
         
         
           <li class="next">
-            <a href="https://www.catherinetcai.com/posts/til---git-cherry-picking-multiple-commits/" data-toggle="tooltip" data-placement="top" title="TIL - Git Cherry-Picking Multiple Commits">Next Post &rarr;</a>
+            <a href="https://www.catherinetcai.com/posts/til---docker-mac-os-beta-integration-with-intellij/" data-toggle="tooltip" data-placement="top" title="TIL - Docker Mac OS Beta Integration With IntelliJ">Next Post &rarr;</a>
           </li>
         
       </ul>
