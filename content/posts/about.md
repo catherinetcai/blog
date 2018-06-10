@@ -17,4 +17,4 @@ I'm hoping that some of the things I write about end up helping others. (They've
 ## Getting in Touch
 While I'm not the best about keeping my social media (or this blog, let's be real) up to date, I love getting feedback about what I'm writing about. I've had the privilege of working with many smart people who've always given me good pointers/constructive notes on how to improve my process and code thinking.
 
-I'm reachable at my [Twitter](https://twitter.com/catherinetcai). If for some reason you don't want to reach out via Twitter, you can always hit me up via LinkedIn(https://www.linkedin.com/in/catherine-ting-cai/). 
+I'm reachable at my [Twitter](https://twitter.com/catherinetcai). If for some reason you don't want to reach out via Twitter, you can always hit me up via my [LinkedIn](https://www.linkedin.com/in/catherine-ting-cai/). 
