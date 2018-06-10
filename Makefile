@@ -10,7 +10,6 @@ ifndef NAME
 	$(error "NAME must be defined for a post")
 endif
 
-
 new: checkname
 	hugo new posts/"$(NAME)"
 

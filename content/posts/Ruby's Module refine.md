@@ -1,7 +1,7 @@
 +++
 date = 2016-06-01T20:20:20Z
 draft = false
-title = "TIL - Ruby's Module #refine"
+title = "TIL - Ruby's Module refine"
 aliases = ["/blog/2016/6/1/til-rubys-module-refine"]
 categories = ["avsnitt"]
 +++
