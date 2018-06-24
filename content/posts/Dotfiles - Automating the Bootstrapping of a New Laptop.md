@@ -1,9 +1,9 @@
 ---
-title: "Dotfiles: Automating the Bootstrapping of a New Laptop"
+title: "Dotfiles - Automating the Bootstrapping of a New Laptop"
 date: 2018-06-24T13:44:25-07:00
 draft: false
-aliases = ["blog/2018/6/24/dotfiles-automating-the-bootstrapping-of-a-new-laptop"]
-categories = ["dotfiles"]
+aliases: ["blog/2018/6/24/dotfiles-automating-the-bootstrapping-of-a-new-laptop"]
+categories: ["dotfiles"]
 ---
 
 I'm excited to announce that I'm now the proud (and broke) owner of a brand new 15" Macbook Pro (2017).

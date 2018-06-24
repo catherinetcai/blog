@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Dotfiles - Automating the Bootstrapping of a New Laptop</title>
+  <meta property="og:title" content="Dotfiles - Automating the Bootstrapping of a New Laptop" />
+  <meta name="twitter:title" content="Dotfiles - Automating the Bootstrapping of a New Laptop" />
+  <meta name="description" content="I&rsquo;m excited to announce that I&rsquo;m now the proud (and broke) owner of a brand new 15&rdquo; Macbook Pro (2017).
+I know, I know. I should have waited until Fall 2018 for Apple to announce a refresh. My rationale for getting the new laptop is mostly that I had been waiting for a refresh at WWDC. If none came, I was going to get one anyway since I&rsquo;ve been holding off for a long time.">
+  <meta property="og:description" content="I&rsquo;m excited to announce that I&rsquo;m now the proud (and broke) owner of a brand new 15&rdquo; Macbook Pro (2017).
+I know, I know. I should have waited until Fall 2018 for Apple to announce a refresh. My rationale for getting the new laptop is mostly that I had been waiting for a refresh at WWDC. If none came, I was going to get one anyway since I&rsquo;ve been holding off for a long time.">
+  <meta name="twitter:description" content="I&rsquo;m excited to announce that I&rsquo;m now the proud (and broke) owner of a brand new 15&rdquo; Macbook Pro (2017).
+I know, I know. I should have waited until Fall 2018 for Apple to announce a …">
+  <meta name="author" content="Catherine Cai"/>
+  <link href='https://www.catherinetcai.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://www.catherinetcai.com/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://www.catherinetcai.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@catherinetcai" />
+  <meta name="twitter:creator" content="@catherinetcai" />
+  <meta property="og:url" content="https://www.catherinetcai.com/posts/dotfiles---automating-the-bootstrapping-of-a-new-laptop/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Catherine Cai" />
+
+  <meta name="generator" content="Hugo 0.30.2" />
+  <link rel="canonical" href="https://www.catherinetcai.com/posts/dotfiles---automating-the-bootstrapping-of-a-new-laptop/" />
+  <link rel="alternate" href="https://www.catherinetcai.com/index.xml" type="application/rss+xml" title="Catherine Cai">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.catherinetcai.com/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://www.catherinetcai.com/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://www.catherinetcai.com/css/highlight.min.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.catherinetcai.com">Catherine Cai</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/posts/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Catherine Cai" href="https://www.catherinetcai.com">
+            <img class="avatar-img" src="https://www.catherinetcai.com/img/avatar-icon.png" alt="Catherine Cai" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              <h1>Dotfiles - Automating the Bootstrapping of a New Laptop</h1>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>I&rsquo;m excited to announce that I&rsquo;m now the proud (and broke) owner of a brand new 15&rdquo; Macbook Pro (2017).</p>
+
+<p>I know, I know. I should have waited until Fall 2018 for Apple to announce a refresh. My rationale for getting the new laptop is mostly that I had been waiting for a refresh at WWDC. If none came, I was going to get one anyway since I&rsquo;ve been holding off for a long time. Say what you will about Apple and their current state of hardware, I&rsquo;ll take a touchbar and a garbage keyboard any day over any of the other hardware offerings out there right now. (I got myself a XPS 15 about a year and a half ago and booting Elementary OS and having to hack around with the graphics driver and the 4K display was a terrible experience.)</p>
+
+<p>Anyway, that&rsquo;s neither here nor there. I&rsquo;m here to discuss dotfiles and bootstrapping a new laptop.</p>
+
+<p>A lot of my friends have their development environment bootstrapping down to an art form. Some of them have public repos of well-organized dotfiles. My friend and former colleague <a href="https://naftuli.wtf/">Naftuli</a> has an Ansible role set up for his Vim setup and for every single language he develops in (hell, for every language he MIGHT develop in). I&rsquo;ve never been quite as&hellip; diligent about bootstrapping my laptop. I forked <a href="https://github.com/catherinetcai/grindr-laptop">thoughtbot&rsquo;s laptop</a> script a while ago to help quickly bootstrap Grindr development environments a couple of years ago, but that&rsquo;s about the extent of my upkeep for starting a development environment. I just keep my init.vim for Neovim and .zshrc in a secret gist on GitHub and copy paste itwhenever I start a new job or get a new laptop and adjust it as needed. Then I just apt-get or brew whatever it is that I need as I run into realizing that I don&rsquo;t have something I need. It&rsquo;s a pretty cringe and inefficient setup considering 90% of my job is identifying inefficiencies and writing tooling to automate those processes.</p>
+
+<p>I decided that since I was willing to invest a ton of money into a laptop for my work, I should also spend some time making it much cleaning up my development setup too. This meant modularizing my .zshrc and my Vim set up, which I hadn&rsquo;t done before because I thought it was too much of a pain.</p>
+
+<p>To give you a little idea of just how dilipidated/messy my setup was prior to this cleanup&hellip; well, my zsh and Vim setup are things I threw together when I was but a wee half-time software engineering intern baby child trying to figure out what Vim even was back in November of 2014. I just grabbed a ton of plugins on the recommendation of my coworkers at the time and got going. Over the years, I just kept tacking on stuff (with some minor cleanups here and there, I&rsquo;m not a complete trash person) as I learned more languages and needed to expand my toolset. But tl;dr - yes, both my zshrc and init.vim needed a lot of love.</p>
+
+<p>I first looked into something that I could manage and upload my dotfile managers with. I came across <a href="https://github.com/TheLocehiliosan/yadm">yadm</a>, which really is just a nice wrapper around git and uploading dotfiles. There&rsquo;s a couple other nice things that come with it like encryption, etc. I explored it for a bit, but honestly I didn&rsquo;t get the sense that there wasn&rsquo;t anything there that I couldn&rsquo;t handle on my own with some Bash and git. However, I did come away from yadm discovering <a href="https://github.com/Homebrew/homebrew-bundle">Brewfiles</a>.</p>
+
+<p>Having used Homebrew for years, I&rsquo;m actually a little embarrassed that I&rsquo;d never heard of Brewfiles or Homebrew-Bundle. Essentially, Brewfiles work like Ruby Bundler&rsquo;s <a href="https://bundler.io/gemfile.html">Gemfile</a>. You dictate a recipe that outlines the brew dependencies that you want to download, run <code>brew bundle</code> and Homebrew will pull all the dependencies for you. Homebrew-Bundle also supports brew cask dependencies, along with Mac App Store downloads. This meant I could literally just install Homebrew and be able to pull everything I&rsquo;ve ever wanted to use immediately. You can see my current Brewfile that I&rsquo;m running <a href="https://github.com/catherinetcai/dotfiles/blob/master/brew/Brewfile">here</a>, though I&rsquo;ve slowly been adding to it as I discover more and more desktop apps that I run into. Brewfiles essentially saved me from having to kludge together some sort of horrifying Bash script to curl/wget all of my base software dependencies.</p>
+
+<p>I then just needed to modularize and split up my .zshrc and Neovim configurations.</p>
+
+<p>For my zshrc, I really just needed to split up everything that I had in there. It was something like a 240-lined monster that was impossible to parse (to be fair, most of it was commented out settings from oh-my-zsh). After reading through a couple other people&rsquo;s setups, I found most people split up their .bashrc or .zshrc by specific functions. For me, I ended up deciding to just split off environment variable exports, aliases, and functions, and then sourcing them into my main .zshrc file. My split up zsh files are <a href="https://github.com/catherinetcai/dotfiles/tree/master/system/zsh">here</a>, though I just want to specifically call out these <a href="https://github.com/catherinetcai/dotfiles/blob/master/system/zsh/.zshrc#L1-L15">lines of bash</a> (also apologies ahead of time for my not-so-great bash). I essentially declared an array of where each dotfile was, wrote a quick helper function to source the file (or echo an error if the file isn&rsquo;t found) and looped through the array to source them.</p>
+
+<p>Neovim was actually a little bit more tricky. I wasn&rsquo;t really sure how to split it up other than knowing that my plugin installation declarations were really long, so that could be something I could pull out. Through a lot of Googling, I came across <a href="https://github.com/greg-js/dotfiles/tree/master/.config/nvim/config">greg-js&rsquo;s setup</a>. (greg-js, whoever you are, you&rsquo;re a G. Thanks for your help.) They ended up having their init.vim be just a file that sources other configs, and then splitting out their configurations into plugin installation, plugin configuration, setting sane Vim defaults, and key remappings. I ended up going with the exact <a href="https://github.com/catherinetcai/dotfiles/tree/master/nvim/config">same approach</a>.</p>
+
+<p>The last problem I had to solve was just having it be an automated process. I decided to throw together two quick bash scripts to handle bootstrapping a laptop running MacOS (I&rsquo;ll write something for automating Linux one day when I get back to using my XPS&hellip; maybe&hellip;). The first is a <a href="https://github.com/catherinetcai/dotfiles/blob/master/bootstrap.sh">bootstrap script</a> that installs Homebrew, Homebrew-Bundle, rbenv and pyenv. It wraps up my copy pasting my .gitconfig and my .zsh over into the $HOME directory. The script isn&rsquo;t the most elegant solution, but at the very least I can run it as many times as I want to. For now, the script will overwrite whatever&rsquo;s in the $HOME directory if zsh or gitconfigs are present, though I think over time I&rsquo;ll adapt it to ask for user input about overwriting certain files (if I ever get the patience to write that in Bash). The other <a href="https://github.com/catherinetcai/dotfiles/blob/master/nvim.sh">bash script</a> just installs Ruby, Python <sup>2</sup>&frasl;<sub>3</sub>, and Node for Neovim. I wish I could have all of this in the same automation script, but I wasn&rsquo;t sure how to source a new zshrc file to pick up all the changes necessary for pyenv, rbenv, and virtualenv to work right.</p>
+
+<p>In any case, the solution&rsquo;s a little clumsy, at least in terms of the bootstrapping portion, but I&rsquo;m going to call the fact that I&rsquo;ve cleaned up my dotfiles a win.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://www.catherinetcai.com/posts/new-year-old-me/" data-toggle="tooltip" data-placement="top" title="New Year, Old Me">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:catherinetcai@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/catherinetcai" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/catherinetcai" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/catherine-ting-cai" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://www.catherinetcai.com/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://www.catherinetcai.com">Catherine Cai</a>
+                      
+          
+          
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://www.catherinetcai.com">Catherine Cai</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.30.2</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://www.catherinetcai.com/js/main.js"></script>
+<script src="https://www.catherinetcai.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="https://www.catherinetcai.com/js/load-photoswipe.js"></script>
+
+
+
+  </body>
+</html>
+
