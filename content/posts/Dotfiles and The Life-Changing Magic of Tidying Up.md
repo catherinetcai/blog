@@ -1,8 +1,8 @@
 ---
-title: "Dotfiles - Automating the Bootstrapping of a New Laptop"
+title: "Dotfiles and The Life-Changing Magic of Tidying Up"
 date: 2018-06-24T13:44:25-07:00
 draft: false
-aliases: ["blog/2018/6/24/dotfiles-automating-the-bootstrapping-of-a-new-laptop"]
+aliases: ["blog/2018/6/24/dotfiles-and-the-life-changing-magic-of-tidying-up"]
 categories: ["dotfiles"]
 ---
 
