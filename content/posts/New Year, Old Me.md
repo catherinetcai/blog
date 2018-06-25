@@ -1,12 +1,12 @@
 ---
 title: "New Year, Old Me"
 date: 2017-12-27T12:34:49-08:00
-draft: false 
+draft: false
 aliases: ["blog/2017/12/27/new-year-old-me"]
 categories: ["me"]
 ---
 
-I'm not a New Year's Resolution person, mostly because I don't think they work. I'm not opposed to the idea, I just think that they take a wrongheaded approach (for me). Picking up a new habit is a lot of hard work, and I think trying to kick off a new year with the idea that it's going to be a complete "fresh start" I think puts people in the wrong mindset for setting a habit. 
+I'm not a New Year's Resolution person, mostly because I don't think they work. I'm not opposed to the idea, I just think that they take a wrongheaded approach (for me). Picking up a new habit is a lot of hard work, and I think trying to kick off a new year with the idea that it's going to be a complete "fresh start" I think puts people in the wrong mindset for setting a habit.
 
 2018 is going to be just that. Nothing really changes, except that you're just now forced to write 2018 down on everything (and inevitably get it wrong for most of January/February if you're me). A lot of ~~2017~~2018s aside, there's not really much of a mental shift. I really think that if you're going into the new year with the mindset that the moment the ball drops in Time Square that everything's going to change, you're destined to fail.
 
@@ -15,7 +15,7 @@ With that... new year, same me - except I hope that I make some improvements in 
 ### Things I've Done in 2017
 - Quit a job I liked
 - Started a new job
-- Started my first job as a "senior" engineering (whatever that's supposed to mean, but I guess the title bump is cool!)
+- Started my first job as a "senior" engineering person (whatever that's supposed to mean, but I guess the title bump is cool!)
 - Actually felt like I was a "real" engineer (thanks imposter's syndrome)
 - Visited Tokyo for the first time
 - Visited Kauai for the first time
