@@ -61,6 +61,11 @@ publishDir = "public"
 [[menu.main]]
     name = "About"
     url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Talks"
+    url = "page/talks"
     weight = 3
 
 #[[menu.main]]
