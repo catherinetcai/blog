@@ -14,7 +14,7 @@ ifndef NAME
 endif
 
 new: checkname
-	hugo new posts/"$(NAME)"
+	hugo new posts/"$(NAME)".md
 
 run:
 	hugo serve -D
