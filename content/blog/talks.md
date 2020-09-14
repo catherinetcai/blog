@@ -1,6 +1,7 @@
 ---
 title: "Talks"
 draft: false
+menu: "main"
 aliases: ["/page/talks"]
 ---
 I've been seen out in the wild doing a talk here and there.

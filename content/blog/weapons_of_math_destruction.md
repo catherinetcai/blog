@@ -5,7 +5,6 @@ draft: false
 aliases: ["blog/2020/09/14/weapons-of-math-destruction"]
 categories: ["books", "ai", "ethics"]
 ---
-# Weapons of Math Destruction
 I recently finished [Weapons of Math Destruction](https://weaponsofmathdestructionbook.com/) by Cathy O’Neil for my [AI, Ethics, and Society](https://omscs.gatech.edu/cs-8803-o10-ai-ethics-and-society) class. The book can be boiled down to this: AI algorithms just amplify the current biases of our society, and **surprise**... they totally screw over minorities and the poor
 
 O’Neil is a former quant and data scientist, but the book doesn’t go heavy into any math or AI implementation details. Instead, she paints in broad strokes how the algorithms being deployed in society for facial recognition and social media are deeply problematic, and then paints a depressing picture about how these algorithms could be deployed in insurance or loan approval situations in making the poor poorer.

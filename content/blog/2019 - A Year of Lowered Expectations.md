@@ -2,6 +2,7 @@
 title: "2019 - A Year of Lowered Expectations"
 date: 2018-12-30T11:25:53-08:00
 draft: false
+categories: ["me"]
 ---
 
 Another year around the sun. Another year of this blog being sorely neglected. Whoops.

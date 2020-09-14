@@ -1,7 +1,7 @@
 ---
 title: "About"
 draft: false
-aliases: ["/page/about"]
+aliases: ["/about"]
 ---
 ## Who I Am
 Hi! My name is Cat Cai. I'm a software engineer who currently bumbles around a lot in Kubernetes, Go, and Ruby for a company called Shopify.  I've also been known to sometimes do Python, C (very poorly), and JavaScript (mostly for React Native).

@@ -2,7 +2,7 @@
 title: "Ireland Bound"
 date: 2020-06-23T13:04:18+01:00
 draft: false
-aliases: ["blog/2020/6/23/ireland-bound"]
+aliases: ["blog/2020/06/23/ireland-bound"]
 categories: ["ireland", "expat", "travel"]
 ---
 
