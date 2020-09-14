@@ -1,7 +1,11 @@
 baseurl = "https://www.catherinetcai.com"
 DefaultContentLanguage = "en"
-title = "Catherine Cai"
-theme = "beautifulhugo"
+title = "Cat Cai"
+author = "Cat Cai"
+copyright = "Copyright 2020, Cat Cai"
+enableRobotsTXT = true
+theme = "hugo-bearblog"
+languageCode = "en-US"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
