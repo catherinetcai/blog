@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ireland on Catherine Cai</title>
+    <title>ireland on Cat Cai</title>
     <link>https://www.catherinetcai.com/categories/ireland/</link>
-    <description>Recent content in Ireland on Catherine Cai</description>
+    <description>Recent content in ireland on Cat Cai</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
-    <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
+    <language>en-US</language>
+    <copyright>Copyright 2020, Cat Cai</copyright>
     <lastBuildDate>Tue, 23 Jun 2020 13:04:18 +0100</lastBuildDate>
     
 	<atom:link href="https://www.catherinetcai.com/categories/ireland/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>Ireland Bound</title>
-      <link>https://www.catherinetcai.com/posts/ireland-bound/</link>
+      <link>https://www.catherinetcai.com/blog/ireland-bound/</link>
       <pubDate>Tue, 23 Jun 2020 13:04:18 +0100</pubDate>
-      <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/ireland-bound/</guid>
+      
+      <guid>https://www.catherinetcai.com/blog/ireland-bound/</guid>
       <description>I seem to only be good at keeping up with this thing whenever I go through a major life shift. Lots of things have changed: I&amp;rsquo;ve left my role at Fair, I&amp;rsquo;m more than halfway done with the OMSCS program, and I&amp;rsquo;ve upped and moved to Dublin, Ireland.
 Wait What? Ireland?
 Yes, Ireland!

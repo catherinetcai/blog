@@ -1,113 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.catherinetcai.com/posts/ireland-bound/</loc>
-    <lastmod>2020-06-23T13:04:18+01:00</lastmod>
+    <loc>https://www.catherinetcai.com/categories/ai/</loc>
+    <lastmod>2020-09-14T10:34:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.catherinetcai.com/posts/2019-a-year-of-lowered-expectations/</loc>
-    <lastmod>2018-12-30T11:25:53-08:00</lastmod>
+    <loc>https://www.catherinetcai.com/blog/</loc>
+    <lastmod>2020-09-14T10:34:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.catherinetcai.com/posts/dotfiles-and-the-life-changing-magic-of-tidying-up/</loc>
-    <lastmod>2018-06-24T13:44:25-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/posts/new-year-old-me/</loc>
-    <lastmod>2017-12-27T12:34:49-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/posts/okta-openid-jwt-validation/</loc>
-    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/posts/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/categories/</loc>
-    <priority>0</priority>
+    <loc>https://www.catherinetcai.com/categories/books/</loc>
+    <lastmod>2020-09-14T10:34:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.catherinetcai.com/</loc>
-    <lastmod>2020-06-23T13:04:18+01:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-09-14T10:34:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.catherinetcai.com/categories/dotfiles/</loc>
-    <lastmod>2018-06-24T13:44:25-07:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.catherinetcai.com/categories/ethics/</loc>
+    <lastmod>2020-09-14T10:34:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/weapons_of_math_destruction/</loc>
+    <lastmod>2020-09-14T10:34:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.catherinetcai.com/categories/expat/</loc>
     <lastmod>2020-06-23T13:04:18+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.catherinetcai.com/categories/ireland/</loc>
     <lastmod>2020-06-23T13:04:18+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.catherinetcai.com/categories/jwt/</loc>
-    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/categories/me/</loc>
-    <lastmod>2017-12-27T12:34:49-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/categories/okta/</loc>
-    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/posts/</loc>
+    <loc>https://www.catherinetcai.com/blog/ireland-bound/</loc>
     <lastmod>2020-06-23T13:04:18+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/posts/talks/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.catherinetcai.com/categories/til/</loc>
-    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.catherinetcai.com/categories/travel/</loc>
     <lastmod>2020-06-23T13:04:18+01:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/2019-a-year-of-lowered-expectations/</loc>
+    <lastmod>2018-12-30T11:25:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/categories/me/</loc>
+    <lastmod>2018-12-30T11:25:53-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/categories/dotfiles/</loc>
+    <lastmod>2018-06-24T13:44:25-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/dotfiles-and-the-life-changing-magic-of-tidying-up/</loc>
+    <lastmod>2018-06-24T13:44:25-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/new-year-old-me/</loc>
+    <lastmod>2017-12-27T12:34:49-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/categories/jwt/</loc>
+    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/categories/okta/</loc>
+    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/okta-openid-jwt-validation/</loc>
+    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/categories/til/</loc>
+    <lastmod>2017-11-23T21:33:59-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/migrating-from-squarespace-to-hugo/</loc>
+    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.catherinetcai.com/blog/talks/</loc>
   </url>
   
 </urlset>

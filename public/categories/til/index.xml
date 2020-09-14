@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Til on Catherine Cai</title>
+    <title>til on Cat Cai</title>
     <link>https://www.catherinetcai.com/categories/til/</link>
-    <description>Recent content in Til on Catherine Cai</description>
+    <description>Recent content in til on Cat Cai</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>catherinetcai@gmail.com (Catherine Cai)</managingEditor>
-    <webMaster>catherinetcai@gmail.com (Catherine Cai)</webMaster>
+    <language>en-US</language>
+    <copyright>Copyright 2020, Cat Cai</copyright>
     <lastBuildDate>Thu, 23 Nov 2017 21:33:59 -0800</lastBuildDate>
     
 	<atom:link href="https://www.catherinetcai.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
@@ -14,20 +14,20 @@
     
     <item>
       <title>Okta OpenID JWT Validation</title>
-      <link>https://www.catherinetcai.com/posts/okta-openid-jwt-validation/</link>
+      <link>https://www.catherinetcai.com/blog/okta-openid-jwt-validation/</link>
       <pubDate>Thu, 23 Nov 2017 21:33:59 -0800</pubDate>
-      <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/okta-openid-jwt-validation/</guid>
+      
+      <guid>https://www.catherinetcai.com/blog/okta-openid-jwt-validation/</guid>
       <description>At work I&amp;rsquo;ve been implementing JWT encoding/decoding/validation for an auth service written in Ruby to handle both Okta OpenID Connect. The workflow is fairly straight forward. Once you log in via the Okta web portal, Okta will pass back an ID Token, which is a Base64 encoded JWT. Once decoded using Ruby&amp;rsquo;s Base64 urlsafe_decode64 method, the contents look something like this (taken from here):
 # Header: { &amp;quot;alg&amp;quot;: &amp;quot;RS256&amp;quot;, &amp;quot;kid&amp;quot;: &amp;quot;mLi1UdXCkm90Klq9ZJy5p6rAZx5_X2GQee2E_Lj3eUs&amp;quot; } # Payload: { &amp;quot;sub&amp;quot;: &amp;quot;00a1b33cde4fH5ij60k7&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;myuser@mycompany.</description>
     </item>
     
     <item>
       <title>Migrating From SquareSpace to Hugo</title>
-      <link>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</link>
+      <link>https://www.catherinetcai.com/blog/migrating-from-squarespace-to-hugo/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <author>catherinetcai@gmail.com (Catherine Cai)</author>
-      <guid>https://www.catherinetcai.com/posts/migrating-from-squarespace-to-hugo/</guid>
+      
+      <guid>https://www.catherinetcai.com/blog/migrating-from-squarespace-to-hugo/</guid>
       <description>The migration is complete&amp;hellip; almost. Some of my previous blog posts are probably still improperly formatted and some of my lighting portfolio didn&amp;rsquo;t seem to make the cut at all.
 SquareSpace&amp;rsquo;s formatting doesn&amp;rsquo;t make it conducive to migrating your blog to anything other than Wordpress, to put it lightly. You can export your entire site into XML, which is&amp;hellip; ugh. I decided to decide the mild headache it was to migrate from SquareSpace to Hugo hosted on GitHub Pages just in case I decided I wanted to retrace my steps in doing this again.</description>
     </item>

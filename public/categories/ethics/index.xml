@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ethics on Cat Cai</title>
+    <link>https://www.catherinetcai.com/categories/ethics/</link>
+    <description>Recent content in ethics on Cat Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2020, Cat Cai</copyright>
+    <lastBuildDate>Mon, 14 Sep 2020 10:34:22 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.catherinetcai.com/categories/ethics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weapons of Math Destruction and Introspection</title>
+      <link>https://www.catherinetcai.com/blog/weapons_of_math_destruction/</link>
+      <pubDate>Mon, 14 Sep 2020 10:34:22 +0100</pubDate>
+      
+      <guid>https://www.catherinetcai.com/blog/weapons_of_math_destruction/</guid>
+      <description>I recently finished Weapons of Math Destruction by Cathy O’Neil for my AI, Ethics, and Society class. The book can be boiled down to this: AI algorithms just amplify the current biases of our society, and surprise&amp;hellip; they totally screw over minorities and the poor
+O’Neil is a former quant and data scientist, but the book doesn’t go heavy into any math or AI implementation details. Instead, she paints in broad strokes how the algorithms being deployed in society for facial recognition and social media are deeply problematic, and then paints a depressing picture about how these algorithms could be deployed in insurance or loan approval situations in making the poor poorer.</description>
+    </item>
+    
+  </channel>
+</rss>
