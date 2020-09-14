@@ -1,5 +1,5 @@
 ---
-title: "Weapons_of_math_destruction"
+title: "Weapons of Math Destruction and Introspection"
 date: 2020-09-14T10:34:22+01:00
 draft: false
 aliases: ["blog/2020/09/14/weapons-of-math-destruction"]
