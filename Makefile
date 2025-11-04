@@ -17,7 +17,7 @@ new: checkname
 	hugo new posts/"$(NAME)".md
 
 run:
-	hugo serve -D
+	hugo server --disableFastRender
 
 git-recurse:
 	git submodule update --recursive
